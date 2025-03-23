@@ -12,7 +12,6 @@ Hi, I am Kui Wang.
 
 * 07/04/2025: Kui will attend a Cell Symposia in Shenzheng on [Neurometabolism in health and disease](https://cell-symposia.com/neurometabolism-2025/index.html) and present a poster titiled "A genetically encoded ratiometric indicator for tryptophan quantitative imaging across model organisms“.
 
-![HaloDA1.0](/images/papers/HaloDA1.0.png)
 <img src="/images/papers/HaloDA1.0.png" width="200px">
 
 
