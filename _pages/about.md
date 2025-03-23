@@ -38,7 +38,7 @@ My doctoral thesis described a novel tryptophan fluorescent protein sensor, whic
 
 * 31/10/2023: New [Fluorescent Tryptophan sensor](/publication/2023-10-31-Tryptophan-sensor) paper published on ***Cell Discovery***.
  <div align="center">
-    <img src="/images/papers/grit.png" width="300px">
+    <img src="/images/papers/Cell Disc_Logo.png" width="300px">
  </div>
 
 * 19/09/2023: Patent for Tryptophan sensor [GRIT](https://patents.google.com/patent/CN116769045A/en) announced in China.
