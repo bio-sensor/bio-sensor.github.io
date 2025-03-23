@@ -1,7 +1,7 @@
 ---
 title: "Chemosensory modulation of eye-body coordination in larval zebrafish"
-collection: publications
-category: books
+collection: publication 
+category: preprints
 permalink: /publication/2024-10-27-Fish-on-chip
 excerpt: 'Chemosensory cues shape zebrafish eye-body coordination, with distinct responses for aversive and appetitive stimuli.'
 date: 2024-10-27
