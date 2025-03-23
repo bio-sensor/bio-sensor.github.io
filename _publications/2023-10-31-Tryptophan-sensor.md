@@ -13,5 +13,7 @@ paperurl: 'http://epivitae.github.io/files/publication/Tryptophan_sensor.pdf'
 
 In this study, we fused a circularly permuted superfolder YFP into every insertion site of the flexible loop of bacterial tryptophan repressor protein TrpR, where has a large conformational change upon tryptophan binding. We then performed linker truncations and screened a biosensor with ~1.5-fold fluorescence responses to tryptophan. Semi-rational design was conducted by focusing on the residues close to the chromophore or linkers, yielding a mutant with ~6-fold response. The GRIT sensor (Genetically encoded Ratiometric Indicator for Tryptophan) was obtained after screening ~8000 mutants in the linker saturated mutagenesis library. We also engineered a GRIT control sensor (GRITOL) without responses to tryptophan.
 
+Check out the [orginal paper](https://www.nature.com/articles/s41421-023-00608-1).
+
 ![Trytophan sensor](/images/papers/GRIT.png)
 <img src="/images/papers/GRIT.png" width="200px">
