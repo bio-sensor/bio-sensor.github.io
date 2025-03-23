@@ -6,7 +6,7 @@ permalink: /publication/2023-10-31-Tryptophan-sensor
 excerpt: 'In vivo Tryptophan imaging use a new sensor.'
 date: 2023-10-31
 venue: 'Cell Discovery'
-slidesurl: 'http://epivitae.github.io/files/slides1.pdf'
+#slidesurl: 'http://epivitae.github.io/files/slides1.pdf'
 paperurl: 'http://epivitae.github.io/files/publication/Tryptophan_sensor.pdf'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
@@ -19,14 +19,14 @@ Check out the [orginal paper](https://www.nature.com/articles/s41421-023-00608-1
 <div align="center">
     <img src="/images/papers/GRIT.png" width="400px">
 </div>
-
+<br>
 <div align="center">
     <video width="400" controls>
       <source src="/images/papers/GRIT_single-cell.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
 </div>
-
+<br>
 <div align="center">
     <video width="400" controls>
       <source src="/images/papers/GRIT_kinetics.mp4" type="video/mp4">

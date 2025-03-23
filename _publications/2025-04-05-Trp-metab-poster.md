@@ -4,8 +4,8 @@ collection: publications
 category: conferences
 permalink: /publication/2025-04-05-Trp-metab-poster
 excerpt: 'The development of Trp sensor and its application on Tryptophan quantitative imaging.'
-date: 2024-09-30
-venue: 'CNS2024'
+date: 2025-04-07
+venue: 'Cell Symposia'
 #slidesurl: 'http://epivitae.github.io/files/publication/HaloDA1.0.pdf'
 #paperurl: 'http://epivitae.github.io/files/publication/HaloDA1.0.pdf'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
