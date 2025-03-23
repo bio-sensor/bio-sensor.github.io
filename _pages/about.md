@@ -10,11 +10,15 @@ Hi, I am Kui Wang.
 
 ## News
 
-* 07/04/2025: Kui will attend a [Cell Symposia](https://cell-symposia.com/neurometabolism-2025/index.html)  in Shenzheng and present a poster titiled "A genetically encoded ratiometric indicator for tryptophan quantitative imaging across model organisms".
+* 07/04/2025: Plan to attend a [Cell Symposia](https://cell-symposia.com/neurometabolism-2025/index.html)  in Shenzheng.
 
+* 21/03/2025: New [dopamine sensor](https://www.biorxiv.org/content/10.1101/2024.12.22.629999v1.abstract) paper accepted by ***Science***!
 
+* 27/02/2025: New [chemigenetic dyes](https://www.biorxiv.org/content/10.1101/2024.12.20.629585v1.abstract) paper accepted by ***Nature Methods***.
 
-* 21/03/2025: Collaborative research with [Li Yulong group](http://www.yulongli.org), leading to the development of a novel dopamine probe HaloDA1.0, accepted by ***Science***. Check out the[preprint](https://www.biorxiv.org/content/10.1101/2024.12.22.629999v1.abstract)!
+* 14/11/2024: New [Tryptophan imaging](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-024-02058-x) paper online in ***BMC Biology***.
+* 
+* 31/10/2023: New [Tryptophan sensor](https://www.nature.com/articles/s41421-023-00608-1) paper published in ***Cell Discovery***.
 
 
 <div align="center">
