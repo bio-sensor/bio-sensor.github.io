@@ -15,14 +15,22 @@ In this study, we fused a circularly permuted superfolder YFP into every inserti
 
 Check out the [orginal paper](https://www.nature.com/articles/s41421-023-00608-1).
 
-<img src="/images/papers/GRIT.png" width="400px">
 
-<video width="400" controls>
-  <source src="/images/papers/GRIT_single-cell.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
-<video width="400" controls>
-  <source src="/images/papers/GRIT_kinetics.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div align="center">
+    <img src="/images/papers/GRIT.png" width="400px">
+</div>
+
+<div align="center">
+    <video width="400" controls>
+      <source src="/images/papers/GRIT_single-cell.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+</div>
+
+<div align="center">
+    <video width="400" controls>
+      <source src="/images/papers/GRIT_kinetics.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+</div>
