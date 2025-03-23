@@ -17,3 +17,6 @@ Hi, I am Kui Wang.
 * 21/03/2025: Collaborative research with [Li Yulong group](http://www.yulongli.org), leading to the development of a novel dopamine probe HaloDA1.0, accepted by ***Science***. Check out the[preprint](https://www.biorxiv.org/content/10.1101/2024.12.22.629999v1.abstract)!
 
 <img src="/images/papers/HaloDA1.0.png" width="400px">
+<div align="center">
+    <img src="/images/papers/HaloDA1.0.png" width="400px">
+</div>
