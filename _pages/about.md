@@ -12,7 +12,7 @@ Hi, I am Kui Wang.
 
 * 07/04/2025: Plan to attend a [Cell Symposia](https://cell-symposia.com/neurometabolism-2025/index.html)  in Shenzheng.
 
-* 21/03/2025: New [dopamine sensor](https://www.biorxiv.org/content/10.1101/2024.12.22.629999v1.abstract) paper accepted by ***Science***!
+* 21/03/2025: New [dopamine sensor](https://www.biorxiv.org/content/10.1101/2024.12.22.629999v1.abstract) paper accepted by ***Science*** !
  <div align="center">
     <img src="/images/papers/HaloDA1.0.png" width="400px">
  </div>
