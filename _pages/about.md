@@ -4,9 +4,8 @@ permalink: /
 title: "About Me"  
 author\_profile: true  
 redirect\_from:
-
- /about/  
- /about.html
+ - /about/  
+ - /about.html
 
 ---
 
