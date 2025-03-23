@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "Resource for sharing"
+title: "Resources for sharing"
 permalink: /resources/
 author_profile: true
 ---
 
 
 
-
-<span style="color:gray">Coming soon...</span>
+<br><br><br><br><br><br><br><br><br>
+<span style="color:gray">Plasmids, codes, Coming soon...</span>

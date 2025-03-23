@@ -10,9 +10,9 @@ Hi, I am Kui Wang.
 
 ## News
 
-* 07/04/2025: Presented a poster on Tryptophan metabolism at [Cell Symposia](https://cell-symposia.com/neurometabolism-2025/index.html) in Shenzhen.
+* 07/04/2025: Presented a poster on *Tryptophan metabolism* at [Cell Symposia](/publication/2025-04-05-Trp-metab-poster) in Shenzhen.
 
-* 21/03/2025: New [Dopamine sensor](/publication/2025-03-21-HaloDA) paper accepted by ***Science*** !
+* 21/03/2025: New [Chemigenetic Dopamine sensor](/publication/2025-03-21-HaloDA) paper accepted by ***Science*** !
  <div align="center">
     <img src="/images/papers/HaloDA1.0.png" width="300px">
  </div>
@@ -26,9 +26,12 @@ Hi, I am Kui Wang.
  <div align="center">
     <img src="/images/papers/trp.png" width="300px">
  </div>
-* 31/12/2024: Presents a [poster](/publication/2024-09-30-CaLAMP-poster) about Bioluminescent Imaging at [CNS-2024](https://www.cns.org.cn/2024/cn-index.html) in Suzhou.
+* 31/12/2024: Presented a [poster](/publication/2024-09-30-CaLAMP-poster) about *Bioluminescent Imaging* at [CNS-2024](https://www.cns.org.cn/2024/cn-index.html) in Suzhou.
   
-* 31/10/2023: New [Tryptophan sensor](/publication/2023-10-31-Tryptophan-sensor) paper published on ***Cell Discovery***.
+* 31/10/2023: New [Fluorescent Tryptophan sensor](/publication/2023-10-31-Tryptophan-sensor) paper published on ***Cell Discovery***.
+ <div align="center">
+    <img src="/images/papers/grit.png" width="300px">
+ </div>
 
 
 
