@@ -13,6 +13,9 @@ Hi, I am Kui Wang.
 * 07/04/2025: Plan to attend a [Cell Symposia](https://cell-symposia.com/neurometabolism-2025/index.html)  in Shenzheng.
 
 * 21/03/2025: New [dopamine sensor](https://www.biorxiv.org/content/10.1101/2024.12.22.629999v1.abstract) paper accepted by ***Science***!
+* <div align="center">
+    <img src="/images/papers/HaloDA1.0.png" width="400px">
+</div>
 
 * 27/02/2025: New [chemigenetic dyes](https://www.biorxiv.org/content/10.1101/2024.12.20.629585v1.abstract) paper accepted by ***Nature Methods***.
 
@@ -21,6 +24,4 @@ Hi, I am Kui Wang.
 * 31/10/2023: New [Tryptophan sensor](https://www.nature.com/articles/s41421-023-00608-1) paper published in ***Cell Discovery***.
 
 
-<div align="center">
-    <img src="/images/papers/HaloDA1.0.png" width="400px">
-</div>
+
