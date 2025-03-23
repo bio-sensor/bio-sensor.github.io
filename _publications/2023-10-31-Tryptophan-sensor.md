@@ -3,7 +3,7 @@ title: "A genetically encoded ratiometric indicator for tryptophan"
 collection: publications
 category: manuscripts
 permalink: /publication/2023-10-31-Tryptophan-sensor
-excerpt: 'In vivo Tryptophan imaging use a new sensor'
+excerpt: 'In vivo Tryptophan imaging use a new sensor.'
 date: 2023-10-31
 venue: 'Cell Discovery'
 slidesurl: 'http://epivitae.github.io/files/slides1.pdf'
