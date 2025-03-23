@@ -15,6 +15,7 @@ In this study, we fused a circularly permuted superfolder YFP into every inserti
 
 Check out the [orginal paper](https://www.nature.com/articles/s41421-023-00608-1).
 
+<img src="/images/papers/GRIT_single-cell-QR.png" width="400px">
 
 
 <div align="center">
