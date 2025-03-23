@@ -5,5 +5,4 @@ permalink: /resources/
 author_profile: true
 ---
 
-
-<span style="color:gray">Coming soon...</span>
+<span style="color:gray">To be continued...</span>
