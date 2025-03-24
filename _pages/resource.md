@@ -8,7 +8,7 @@ author_profile: true
 <br>
 
 ## Expression vector maps for biosensors
-For detailed usage of these biosensors in imaging, or for plasmid requests, please contact [Dr. Kui Wang](mailto:wangk@ion.ac.cn).
+For detailed usage of these biosensors in imaging, or for plasmid requests, please contact [Dr. Kui Wang](mailto:wangk@ion.ac.cn) or reach out to the corresponding author of the respective article.
 
 
 | ID                          | Vector              | Description                                                         | Reference                                                                 |
