@@ -26,6 +26,16 @@ For detailed usage of these biosensors in imaging, or for plasmid requests, plea
 3. Protein purification
 4. Fluorescent biosensor screening and modification
 
+<br><br>
+
+## Useful codes
+
+`bundle exec jekyll serve --livereload` # local serve starting <br>
+`jekyll clean`
+
+
+
+
 
 <br><br><br><br>
 <span style="color:gray">Plasmids, codes, to be continued...</span>
