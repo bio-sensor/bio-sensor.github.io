@@ -43,3 +43,5 @@ In the next phase of my career, I plan to seek opportunities for a second round 
  </div>
 
 * 19/09/2023: Patent for Tryptophan sensor [GRIT](https://patents.google.com/patent/CN116769045A/en) announced in China.
+
+
