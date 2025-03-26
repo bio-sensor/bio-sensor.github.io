@@ -12,7 +12,9 @@ My doctoral thesis described a novel tryptophan fluorescent protein sensor, whic
 
 In the next phase of my career, I plan to seek opportunities for a second round of postdoctoral training. Potential areas of exploration include **de novo protein design**, neuroimmunity, and the interactions between neuro-oncology and the immune system.
 
-## News
+
+<br>
+# News
 
 * 07/04/2025: Presented a poster on *Tryptophan metabolism* at [Cell Symposia](/publication/2025-04-05-Trp-metab-poster) in Shenzhen.
 * 21/03/2025: New [Chemigenetic Dopamine sensor](/publication/2025-03-21-HaloDA) paper accepted by ***Science*** !
