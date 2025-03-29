@@ -36,8 +36,8 @@ In the next phase of my career, I plan to seek opportunities for a second round 
  </div>
 
 * 31/12/2024: Presented a [poster](/publication/2024-09-30-CaLAMP-poster) about *Bioluminescent Imaging* at [CNS-2024](https://www.cns.org.cn/2024/cn-index.html) in Suzhou.
-* 01/01/2024：Started my PostDoc at [Mu Lab](http://www.mulab.org) in [ION](http://english.cebsit.cas.cn/).
-* 18/09/2023：Thrilled to pass my Ph.D. Defense in Beijing. 🎉🎉🎉
+* 01/01/2024: Started my PostDoc at [Mu Lab](http://www.mulab.org) in [ION](http://english.cebsit.cas.cn/).
+* 18/09/2023: Thrilled to pass my Ph.D. Defense in Beijing. 🎉🎉🎉
 * 31/10/2023: New [Fluorescent Tryptophan sensor](/publication/2023-10-31-Tryptophan-sensor) paper published on ***Cell Discovery***.
 
 <div align="center">
