@@ -1,6 +1,6 @@
 ---
 permalink: /  
-title: "About Me"  
+title: "About Kui Wang"  
 author\_profile: true  
 redirect\_from:
  - /about/
