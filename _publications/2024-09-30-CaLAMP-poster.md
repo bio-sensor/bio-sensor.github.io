@@ -1,5 +1,5 @@
 ---
-title: "In vivo bioluminescent calcium imaging: still a long way to go"
+title: "_In vivo_ bioluminescent calcium imaging: still a long way to go"
 collection: publications
 category: conferences
 permalink: /publication/2024-09-30-CaLAMP-poster

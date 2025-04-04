@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Kui Wang's Homepage"
+title                    : "Chimeric Nano Sensor (CNS)"
 title_separator          : "-"
 name                     : &name "Kui Wang"
 description              : &description "A biologist"

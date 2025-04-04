@@ -1,18 +1,25 @@
 ---
 permalink: /  
-title: "About Me"  
+title: "About Kui Wang"  
 author\_profile: true  
 redirect\_from:
  - /about/
  - /about.html
 ---
-Hi, I am Kui Wang. I was born in [Jingjiang](https://en.wikipedia.org/wiki/Jingjiang) and am currently a postdoctoral researcher at the [Institute of Neuroscience](http://english.cebsit.cas.cn/), Chinese Academy of Sciences (CAS), working with Dr. [Yu Mu](http://www.mulab.org). Previously, I earned my Ph.D. in Genetics from the [Institute of Genetics and Developmental Biology](http://english.genetics.cas.cn), CAS, where I had the privilege of being mentored by Dr. [Falong Lu](http://lulab.genetics.ac.cn).
 
-My doctoral thesis described a novel tryptophan fluorescent protein sensor, which enables the absolute quantification of tryptophan dynamics with single-cell resolution and whole-body precision([Cell Discovery, 2023](/publication/2023-10-31-Tryptophan-sensor)). By using this sensor, we performed quantitative imaging of tryptophan in various samples, including E. coli, mammalian cells, zebrafish, and humans, summarizing the pattern of systemic redistribution of tryptophan caused by inflammation([BMC Biology, 2024](/publication/2024-11-14-Tryptophan-imaging)). With the advancement of live imaging technologies and the emergence of new probes, the scientific community has raised higher demands for simultaneous imaging of multiple physiological indicators. Collaborating with Peking University, we developed a chemogenetic infrared dopamine sensor, which can be used in conjunction with a red calcium sensor and a green ATP sensor to achieve simultaneous imaging of different physiological indicators during epileptic states in zebrafish([Science, in press](/publication/2025-03-21-HaloDA)). To further enhance the usability of chemogenetic imaging methods, we collaborated with another research team at Peking University to develop BD dyes—multi-colored dyes with higher brightness and improved cell permeability—which have been successfully applied to live imaging in zebrafish and other species([Nature Methods, in press](/publication/2025-03-21-HaloDA)).
+<!-- Personal Statement -->
+<br>
+Hi, I am Kui！I was born in [Jingjiang](https://en.wikipedia.org/wiki/Jingjiang) and am currently a postdoctoral researcher at the [Institute of Neuroscience](http://english.cebsit.cas.cn/), Chinese Academy of Sciences (CAS), working under the guidance of Dr. [Yu Mu](http://www.mulab.org). Previously, I obtained my Ph.D. in Genetics from the [Institute of Genetics and Developmental Biology](http://english.genetics.cas.cn), CAS, where I was mentored by Dr. [Falong Lu](http://lulab.genetics.ac.cn).
 
-In the next phase of my career, I plan to seek opportunities for a second round of postdoctoral training. Potential areas of exploration include **de novo protein design**, neuroimmunity, and the interactions between neuro-oncology and the immune system.
+My recent research focuses on developing Chimeric Nano Sensors for in vivo imaging. During my doctoral studies, I introduced a novel tryptophan fluorescent protein sensor, enabling absolute quantification of tryptophan dynamics with single-cell resolution and whole-body precision ([Cell Discovery, 2023](/publication/2023-10-31-Tryptophan-sensor)). Leveraging this sensor, we achieved quantitative imaging of tryptophan across diverse samples, including _E. coli_, mammalian cells, zebrafish, and humans, ultimately delineating the systemic redistribution patterns of tryptophan triggered by inflammation ([BMC Biology, 2024](/publication/2024-11-14-Tryptophan-imaging)). <!---Additionally, we applied artificial intelligence algorithms to develop a computationally assisted rapid protein evolution workflow. Using this approach, we successfully engineered >20 metabolites sensors in a short period (currently in preparation), promising exciting advancements in the near future.--->
 
-## News
+In response to the rising demands for simultaneous imaging of multiple physiological indicators, I collaborated with [Yulong Li](http://www.yulonglilab.org/)'s group at Peking University to develop a chemogenetic infrared dopamine sensor. This innovation, when paired with a red calcium sensor and a green ATP sensor, enables the simultaneous imaging of distinct physiological indicators during epileptic states in zebrafish ([Science, in press](/publication/2025-03-21-HaloDA)). To further enhance the usability and brightness of chemogenetic imaging, I partnered with [Zhixing Chen](https://zhixingchenlab.mysxl.cn/)'s team at Peking University to develop BD dyes. These multi-colored dyes, with improved brightness and cell permeability, are designed for seamless integration with chemogenetic dyes, enabling high-precision live imaging across various species, including zebrafish ([Nature Methods, in press](/publication/2025-03-21-HaloDA)).
+
+As I look ahead to the next stage of my career, I am actively exploring opportunities for a second round of postdoctoral training. Areas of interest include **_De novo_ Protein Design**, Neuro-Immune Interaction, and Neuro-Tumor Interaction.
+
+
+<br>
+# News
 
 * 07/04/2025: Presented a poster on *Tryptophan metabolism* at [Cell Symposia](/publication/2025-04-05-Trp-metab-poster) in Shenzhen.
 
@@ -37,8 +44,8 @@ In the next phase of my career, I plan to seek opportunities for a second round 
  </div>
 
 * 31/12/2024: Presented a [poster](/publication/2024-09-30-CaLAMP-poster) about *Bioluminescent Imaging* at [CNS-2024](https://www.cns.org.cn/2024/cn-index.html) in Suzhou.
-* 01/01/2024：Started my PostDoc at [Mu Lab](http://www.mulab.org) in [ION](http://english.cebsit.cas.cn/).
-* 18/09/2023：Thrilled to pass my Ph.D. Defense in Beijing. 🎉🎉🎉
+* 01/01/2024: Started my PostDoc at [Mu Lab](http://www.mulab.org) in [ION](http://english.cebsit.cas.cn/).
+* 18/09/2023: Thrilled to pass my Ph.D. Defense in Beijing. 🎉🎉🎉
 * 31/10/2023: New [Fluorescent Tryptophan sensor](/publication/2023-10-31-Tryptophan-sensor) paper published on ***Cell Discovery***.
 
 <div align="center">
@@ -46,3 +53,20 @@ In the next phase of my career, I plan to seek opportunities for a second round 
  </div>
 
 * 19/09/2023: Patent for Tryptophan sensor [GRIT](https://patents.google.com/patent/CN116769045A/en) announced in China.
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+----------------------------------------------------
+
+<div style="text-align: center;">
+  <a href="https://info.flagcounter.com/b5Gl"><img src="https://s01.flagcounter.com/count/b5Gl/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_4/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+</div>
+
