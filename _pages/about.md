@@ -1,13 +1,22 @@
 ---
 permalink: /  
-title: "About Kui Wang"  
+title: ""  
 author\_profile: true  
 redirect\_from:
  - /about/
  - /about.html
+ - /news/
 ---
 
 <!-- Personal Statement -->
+
+<br>
+<section id="about">
+  <h1>About Kui Wang</h1>
+  <p></p>
+</section>
+
+
 <br>
 Hi, I am Kui！I was born in [Jingjiang](https://en.wikipedia.org/wiki/Jingjiang) and am currently a postdoctoral researcher at the [Institute of Neuroscience](http://english.cebsit.cas.cn/), Chinese Academy of Sciences (CAS), working under the guidance of Dr. [Yu Mu](http://www.mulab.org). Previously, I obtained my Ph.D. in Genetics from the [Institute of Genetics and Developmental Biology](http://english.genetics.cas.cn), CAS, where I was mentored by Dr. [Falong Lu](http://lulab.genetics.ac.cn).
 
@@ -19,11 +28,18 @@ As I look ahead to the next stage of my career, I am actively exploring opportun
 
 
 <br>
-# News
+<section id="news">
+  <h1>News</h1>
+  <p></p>
+</section>
+
 
 * 07/04/2025: Presented a poster on *Tryptophan metabolism* at [Cell Symposia](/publication/2025-04-05-Trp-metab-poster) in Shenzhen.
 
-* 04/04/2025: New [Chemigenetic dyes](/publication/2025-02-27-BD-Dye) paper accepted by ***Nature Methods***.
+* 04/04/2025: ✨✨✨ New [Chemigenetic dyes](/publication/2025-02-27-BD-Dye) paper accepted by ***Nature Methods***.
+<div align="center">
+    <img src="/images/papers/BD-dye.png" width="300px">
+ </div>
 
 * 21/03/2025: New [Chemigenetic Dopamine sensor](/publication/2025-03-21-HaloDA) paper accepted by ***Science*** !
 
@@ -31,11 +47,7 @@ As I look ahead to the next stage of my career, I am actively exploring opportun
     <img src="/images/papers/HaloDA1.0.png" width="300px">
  </div>
 
-* 27/02/2025: New [Chemigenetic dyes](/publication/2025-02-27-BD-Dye) paper accepted by ***Nature Methods***.
 
-<div align="center">
-    <img src="/images/papers/BD-dye.png" width="300px">
- </div>
 
 * 14/11/2024: New [Tryptophan imaging](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-024-02058-x) paper published on ***BMC Biology***.
 
