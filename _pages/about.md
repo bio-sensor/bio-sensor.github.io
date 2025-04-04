@@ -15,6 +15,9 @@ In the next phase of my career, I plan to seek opportunities for a second round 
 ## News
 
 * 07/04/2025: Presented a poster on *Tryptophan metabolism* at [Cell Symposia](/publication/2025-04-05-Trp-metab-poster) in Shenzhen.
+
+* 04/04/2025: New [Chemigenetic dyes](/publication/2025-02-27-BD-Dye) paper accepted by ***Nature Methods***.
+
 * 21/03/2025: New [Chemigenetic Dopamine sensor](/publication/2025-03-21-HaloDA) paper accepted by ***Science*** !
 
 <div align="center">
