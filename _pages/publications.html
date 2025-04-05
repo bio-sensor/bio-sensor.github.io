@@ -5,22 +5,80 @@ permalink: /publications/
 author_profile: true
 ---
 
+<!-- 返回顶部按钮 -->
+<button id="back-to-top" onclick="scrollToTop()">⬆️ Back to Top</button>
+
+<style>
+  /* 返回顶部按钮样式 */
+  #back-to-top {
+    position: fixed; /* 固定位置 */
+    bottom: 120px;    /* 距离页面底部 */
+    right: 20px;     /* 距离页面右侧 */
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #007bff; /* 按钮背景颜色 */
+    color: #fff;               /* 按钮字体颜色 */
+    border: none;              /* 去掉边框 */
+    border-radius: 5px;        /* 圆角样式 */
+    cursor: pointer;           /* 鼠标样式 */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* 按钮阴影 */
+    z-index: 1000;             /* 确保按钮显示在顶部 */
+  }
+
+  #back-to-top:hover {
+    background-color: #0056b3; /* 鼠标悬停时背景颜色 */
+  }
+
+  /* Table of Contents 平铺样式 */
+  .table-of-contents {
+    margin: 20px 0;
+    font-size: 16px;
+  }
+
+  .table-of-contents a {
+    margin-right: 15px; /* 链接之间的间距 */
+    text-decoration: none; /* 去掉下划线 */
+    color: #007bff; /* 链接颜色 */
+  }
+
+  .table-of-contents a:hover {
+    color: #0056b3; /* 悬停时链接颜色 */
+  }
+</style>
+
+<script>
+  /* 返回顶部功能 */
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' }); /* 平滑滚动到顶部 */
+  }
+</script>
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find a full list of my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<!-- 动态生成章节的超链接 -->
+
+<div class="table-of-contents">
+    {% for category in site.publication_category %}
+      <a href="#{{ category[0] }}">{{ category[1].title }}</a>
+    {% endfor %}
+</div>
+
+<!-- 渲染内容 -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <br /><br /><br /><br /><br /><br /><br /> <!-- 添加空白行 -->
+        <h2 id="{{ category[0] }}">{{ category[1].title }}</h2><hr />
+        
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
@@ -31,6 +89,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
