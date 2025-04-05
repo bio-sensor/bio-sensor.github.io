@@ -24,5 +24,5 @@ Tryptophan (Trp) is an essential amino acid and involves in many cellular proces
 
 
 <div align="center">
-    <img src="/images/papers/Trp_poster.jpg">
+    <img src="/images/papers/Trp poster.jpg">
 </div>
