@@ -10,8 +10,19 @@ venue: 'Cell Symposia'
 #paperurl: 'http://epivitae.github.io/files/publication/HaloDA1.0.pdf'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-This poster was presented in Shenzhen [Cell Symposia: Neurometabolism in health and disease](https://cell-symposia.com/neurometabolism-2025/conference-program.html). 
+
+ > This poster was presented in Shenzhen [Cell Symposia: Neurometabolism in health and disease](https://cell-symposia.com/neurometabolism-2025/conference-program.html). 
+
+
+<br>
+# Abstract
+
+Tryptophan (Trp) is an essential amino acid and involves in many cellular processes. We developed a genetically encoded Green Ratiometric Indicator for Tryptophan (GRIT) by combining a circularly permuted superfolder YFP with a bacterial tryptophan repressor, TrpR. The engineered biosensor GRIT with high brightness, large response, and wide detection range, facilitated quantitative detection of tryptophan distribution and uptake dynamics in bacteria, mammalian cell cultures and cells in intact animals. Moreover, we revealed tryptophan dynamics in different tissues of zebrafish under lipopolysaccharide-induced inflammation. Thus, our study develops GRIT as a useful tool for studying intracellular tryptophan metabolism and function.
+
+<br>
 
 
 
-
+<div align="center">
+    <img src="/images/papers/Trp_poster.png">
+</div>
