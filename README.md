@@ -4,7 +4,7 @@
 
 Hi there! I'm Kui, a postdoctoral researcher at the Institute of Neuroscience, Chinese Academy of Sciences (CAS). My academic journey began in IGDB, CAS, Beijing and brought me here through years of exploration and discovery in the fields of neuroscience and genetics.
 
-My current work focuses on developing cutting-edge imaging technologies, such as Chimeric Nano Sensors, to unlock the mysteries of cellular processes with unprecedented precision. Beyond my research, I'm fascinated by **De novo Protein Design**, **Neuro-Immune Interaction**, and **Neuro-Tumor Interaction** as I embark on the next chapter of my career.
+My current work focuses on developing cutting-edge imaging technologies, such as Chimeric Nano Sensors (CNS), to unlock the mysteries of cellular processes with unprecedented precision. Beyond my research, I'm fascinated by **De novo Protein Design**, **Neuro-Immune Interaction**, and **Neuro-Tumor Interaction** as I embark on the next chapter of my career.
 
 ## 🚀 What You’ll Find Here
 
