@@ -72,7 +72,7 @@ As I look ahead to the next stage of my career, I am actively exploring opportun
 
 <div style="text-align: center;">
     <a href="/images/papers/Cell Disc_Logo.jpg" target="_blank">
-        <img src="/images/papers/Cell Disc_Logo.png" alt="BD-dye" width="200px">
+        <img src="/images/papers/Cell Disc_Logo.jpg" alt="BD-dye" width="200px">
     </a>
 </div>
 
