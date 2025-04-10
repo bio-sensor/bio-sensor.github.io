@@ -34,7 +34,7 @@ As I look ahead to the next stage of my career, I am actively exploring opportun
 </section>
 
 
-* 07/04/2025: Presented a poster on [*Tryptophan metabolism*](/publication/2025-04-05-Trp-metab-poster) at [Cell Symposia](/publication/2025-04-05-Trp-metab-poster) in Shenzhen.
+* 07/04/2025: Presented a [poster](/publication/2025-04-05-Trp-metab-poster) on *Tryptophan metabolism* at [Cell Symposia](/publication/2025-04-05-Trp-metab-poster) in Shenzhen.
 
 * 04/04/2025: ✨✨✨ New [Chemigenetic dyes](/publication/2025-02-27-BD-Dye) paper accepted by ***Nature Methods***.
 <div align="center">
@@ -48,8 +48,8 @@ As I look ahead to the next stage of my career, I am actively exploring opportun
  </div>
 
 
-
 * 14/11/2024: New [Tryptophan imaging](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-024-02058-x) paper published on ***BMC Biology***.
+
 
 <div align="center">
     <img src="/images/papers/trp.png" width="300px">
