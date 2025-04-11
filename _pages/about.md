@@ -15,7 +15,9 @@ My recent research focuses on developing Chimeric Nano Sensors for in vivo imagi
 
 In response to the rising demands for simultaneous imaging of multiple physiological indicators, I collaborated with [Yulong Li](http://www.yulonglilab.org/)'s group at Peking University to develop a chemogenetic infrared dopamine sensor. This innovation, when paired with a red calcium sensor and a green ATP sensor, enables the simultaneous imaging of distinct physiological indicators during epileptic states in zebrafish ([Science, in press](/publication/2025-03-21-HaloDA)). To further enhance the usability and brightness of chemogenetic imaging, I partnered with [Zhixing Chen](https://zhixingchenlab.mysxl.cn/)'s team at Peking University to develop BD dyes. These multi-colored dyes, with improved brightness and cell permeability, are designed for seamless integration with chemogenetic dyes, enabling high-precision live imaging across various species, including zebrafish ([Nature Methods, in press](/publication/2025-03-21-HaloDA)).
 
-As I look ahead to the next stage of my career, I am actively exploring opportunities for a second round of postdoctoral training. Areas of interest include **_De novo_ Protein Design**, Neuro-Immune Interaction, and Neuro-Tumor Interaction.
+We are currently integrating advanced technologies such as AI-assisted protein design, semi-automated high-throughput screening, rapid in vivo expression in zebrafish, and light-sheet microscopy imaging to develop more optical imaging tools. These efforts aim to explore key scientific questions in molecular and cellular neurobiology, neuromodulation of metabolism, and tumor research.
+
+<!-- As I look ahead to the next stage of my career, I am actively exploring opportunities for a second round of postdoctoral training. Areas of interest include **_De novo_ Protein Design**, Neuro-Immune Interaction, and Neuro-Tumor Interaction. -->
 
 
 <br>
