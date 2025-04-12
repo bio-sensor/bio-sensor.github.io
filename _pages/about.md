@@ -59,7 +59,7 @@ We are currently integrating advanced technologies such as AI-assisted protein d
 
 
 
-* 14/11/2024: New [Tryptophan imaging](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-024-02058-x) paper published on ***BMC Biology***.
+* 14/11/2024: New [Tryptophan imaging](/publication/2024-11-14-Tryptophan-imaging) paper published on ***BMC Biology***.
 
 <div style="text-align: center;">
     <a href="/images/papers/trp.png" target="_blank">

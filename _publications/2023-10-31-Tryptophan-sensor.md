@@ -17,22 +17,9 @@ Check out the [orginal paper](https://www.nature.com/articles/s41421-023-00608-1
 
 ## Slides
 <div align="center">
-    <img src="/images/papers/GRIT.png" width="400px">
+    <img src="/images/tech/trp.gif" width="800px">
 </div>
-<br>
-<div align="center">
-    <video width="400" controls>
-      <source src="/images/papers/GRIT_single-cell.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-</div>
-<br>
-<div align="center">
-    <video width="400" controls>
-      <source src="/images/papers/GRIT_kinetics.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-</div>
+
 
 ## News & views
 [http://www.cebsit.cas.cn/xwen/kyjz/2023r/202311/t20231104_6915489.html](http://www.cebsit.cas.cn/xwen/kyjz/2023r/202311/t20231104_6915489.html)<br>
