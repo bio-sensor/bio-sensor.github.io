@@ -12,6 +12,7 @@ redirect\_from:
 
 <br>
 <section id="about">
+  <br>
   <h1>About Kui Wang</h1>
   <p></p>
 </section>
@@ -31,10 +32,11 @@ We are currently integrating advanced technologies such as AI-assisted protein d
 
 <br><br><br>
 <section id="news">
+  <br>
   <h1>News</h1>
   <p></p>
 </section>
-
+<br>
 
 * 07/04/2025: ✨✨✨ Presented a [poster](/publication/2025-04-05-Trp-metab-poster) on *Tryptophan metabolism* at [Cell Symposia](/publication/2025-04-05-Trp-metab-poster) in Shenzhen.
 
