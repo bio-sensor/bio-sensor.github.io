@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <div style="text-align: center;">
-  <h1>Advanced Metabolites Biosensor Development</h1>
+  <h1>Advanced Biosensor Development</h1>
   <div>
     <img src="/images/tech/trp.gif" alt="GIF" style="width: 640px;">
   </div>
