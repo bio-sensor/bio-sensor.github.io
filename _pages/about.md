@@ -38,9 +38,18 @@ We are currently integrating advanced technologies such as AI-assisted protein d
 </section>
 <br>
 
-* 07/04/2025: ✨✨✨ Presented a [poster](/publication/2025-04-05-Trp-metab-poster) on *Tryptophan metabolism* at [Cell Symposia](/publication/2025-04-05-Trp-metab-poster) in Shenzhen.
+* Aug 03, 2025: ✨✨ Attended the [Modern Techniques in Neuroscience](https://www.csh-asia.org/?content/2689) course in Suzhou.
 
-* 04/04/2025: New [Chemigenetic dyes](/publication/2025-02-27-BD-Dye) paper accepted by ***Nature Methods***.
+* Apr 07, 2025: Presented a [poster](/publication/2025-04-05-Trp-metab-poster) on *Tryptophan metabolism* at [Cell Symposia](/publication/2025-04-05-Trp-metab-poster) in Shenzhen.
+
+<div style="text-align: center;">
+    <a href="/images/papers/cell_symposia.jpg" target="_blank">
+        <img src="/images/papers/cell_symposia.jpg" alt="cell" width="400px">
+    </a>
+</div>
+
+
+* Apr 04, 2025: New [Chemigenetic dyes](/publication/2025-02-27-BD-Dye) paper accepted by ***Nature Methods***.
 
 
 <div style="text-align: center;">
@@ -50,7 +59,7 @@ We are currently integrating advanced technologies such as AI-assisted protein d
 </div>
 
 
-* 21/03/2025: New [Chemigenetic Dopamine sensor](/publication/2025-03-21-HaloDA) paper accepted by ***Science*** !
+* Mar 21, 2025: New [Chemigenetic Dopamine sensor](/publication/2025-03-21-HaloDA) paper accepted by ***Science*** !
 
 
 <div style="text-align: center;">
@@ -61,7 +70,7 @@ We are currently integrating advanced technologies such as AI-assisted protein d
 
 
 
-* 14/11/2024: New [Tryptophan imaging](/publication/2024-11-14-Tryptophan-imaging) paper published on ***BMC Biology***.
+* Nov 14, 2024: New [Tryptophan imaging](/publication/2024-11-14-Tryptophan-imaging) paper published on ***BMC Biology***.
 
 <div style="text-align: center;">
     <a href="/images/papers/trp.png" target="_blank">
@@ -69,10 +78,10 @@ We are currently integrating advanced technologies such as AI-assisted protein d
     </a>
 </div>
 
-* 31/12/2024: Presented a [poster](/publication/2024-09-30-CaLAMP-poster) about *Bioluminescent Imaging* at [CNS-2024](https://www.cns.org.cn/2024/cn-index.html) in Suzhou.
-* 01/01/2024: Started my PostDoc at [Mu Lab](http://www.mulab.org) in [ION](http://english.cebsit.cas.cn/).
-* 18/09/2023: Thrilled to pass my Ph.D. Defense in Beijing. 🎉🎉🎉
-* 31/10/2023: New [Fluorescent Tryptophan sensor](/publication/2023-10-31-Tryptophan-sensor) paper published on ***Cell Discovery***.
+* Dec 31, 2024: Presented a [poster](/publication/2024-09-30-CaLAMP-poster) about *Bioluminescent Imaging* at [CNS-2024](https://www.cns.org.cn/2024/cn-index.html) in Suzhou.
+* Jan 01, 2024: Started my PostDoc at [Mu Lab](http://www.mulab.org) in [ION](http://english.cebsit.cas.cn/).
+* Sep 18, 2023: Thrilled to pass my Ph.D. Defense in Beijing. 🎉🎉🎉
+* Oct 31, 2023: New [Fluorescent Tryptophan sensor](/publication/2023-10-31-Tryptophan-sensor) paper published on ***Cell Discovery***.
 
 <div style="text-align: center;">
     <a href="/images/papers/Cell Disc_Logo.jpg" target="_blank">
@@ -81,7 +90,7 @@ We are currently integrating advanced technologies such as AI-assisted protein d
 </div>
 
 
-* 19/09/2023: Patent for Tryptophan sensor [GRIT](https://patents.google.com/patent/CN116769045A/en) announced in China.
+* Sep 19, 2023: Patent for Tryptophan sensor [GRIT](https://patents.google.com/patent/CN116769045A/en) announced in China.
 
 
 
