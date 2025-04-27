@@ -25,7 +25,7 @@ author:
   avatar           : "/profile/zip.jpg"
   name             : "Kui Wang, Ph.D"
   pronouns         : # example: "she/her"  
-  bio              : "PostDoc at Institute of Neuroscience, CAS"
+  bio              : "PostDoc at ION, CAS"
   location         : "Shang Hai, CN"
   employer         : "Institute of Neuroscience, CAS"
   uri              : # URL
@@ -35,11 +35,11 @@ author:
   #arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=RFAVjC4AAAAJ&hl"
   #impactstory      : # URL
-  orcid            : "http://orcid.org/0000-0002-9436-3632"
+  #orcid            : "http://orcid.org/0000-0002-9436-3632"
   #semantic         : # URL
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=kui+wang"
   #researchgate     : # URL
-  #scopus           : # URL
+  scopus           : https://www.xiaohongshu.com/user/profile/5c6c9884000000001101822d?xsec_token=YBI-vtsvuVH4nnj-qpH66lrsMWyqym0vKO_prnp_Zn95k=&xsec_source=app_share&xhsshare=CopyLink&appuid=5c6c9884000000001101822d&apptime=1744817186&share_id=b983c9fcfb9d4b768734430efd737f0a
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -69,11 +69,11 @@ author:
   tumblr           : # Username
   twitter          : bio_sensor # Username for X / Twitter
   vine             : # Username
-  weibo            : # Username
+  weibo            : # biosensor
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : # Username
+  zhihu            : # biosensor
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
