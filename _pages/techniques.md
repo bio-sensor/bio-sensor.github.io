@@ -23,7 +23,7 @@ author_profile: true
 <div style="text-align: center;">
   <h1>Multiplexed Imaging in Intact Behavioral Animals</h1>
   <div>
-    <img src="/images/papers/HaloDA-fish2.png" alt="GIF" style="width: 640px;">
+    <img src="/images/papers/HaloDA-fish3.png" alt="png" style="width: 640px;">
   </div>
   <p style="text-align: justify; margin: 0 auto;">
     Simultaneous detection of multiple chemical substances in living animals represents a key technological frontier in contemporary neurobiology. By simultaneously expressing infrared, red, and green probes in zebrafish, we have achieved concurrent imaging of dopamine, calcium ions, and ATP. This approach allows dynamic monitoring of various substances during electrical stimulation and epileptic states in the animals.(<a href="/publication/2025-03-21-HaloDA" target="_blank">Science, accepted</a>)
