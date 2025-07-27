@@ -10,9 +10,11 @@ venue: 'CN'
 #paperurl: 'http://epivitae.github.io/files/publication/HaloDA1.0.pdf'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-
+## Abstract
 The invention provides a new probe for detecting tryptophan, its preparation method and application. The probe of the present invention contains a fluorescent protein that expresses L-tryptophan and a polypeptide that is sensitive to L-tryptophan. The L-tryptophan-sensitive polypeptide or its functional fragment or L-tryptophan-binding domain is derived from the L-tryptophan-sensitive TrpR protein. The L-tryptophan fluorescent probe provided by the invention can detect L-tryptophan in vitro, subcellular or in situ levels and in vivo; it has good specificity, for L-phenylalanine, L-tyrosine There is no response to similar amino acid analogues, so it is a method suitable for specific detection of intracellular L-tryptophan.
 
+
+## Shortcut
 Checkout this patent via [CN116769045A](https://patents.google.com/patent/CN116769045A/en)
 
  <div align="center">

@@ -10,7 +10,9 @@ venue: 'BMC Biology'
 paperurl: 'http://epivitae.github.io/files/publication/Tryptophan_imaging.pdf'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
+[<strong>Kui Wang</strong><sup>†</sup>](/), Tian-lun Chen<sup>†</sup>, Xin-xin Zhang<sup>†</sup>, Jian-bin Cao<sup>†</sup>, Pengcheng Wang, Mingcang Wang, Jiu-lin Du<sup>✉</sup>, Yu Mu<sup>✉</sup> & Rongkun Rao<sup>✉</sup>
 
+## Abstract
 **Background**
 Tryptophan is an essential amino acid involved in critical cellular processes in vertebrates, serving as a precursor for serotonin and kynurenine, which are key neuromodulators to influence neural and immune functions. Systematic and quantitative measurement of tryptophan is vital to understanding these processes.  
 **Results**
@@ -20,6 +22,12 @@ In summary, this study introduces GRIT as a powerful method for studying tryptop
 
 Check out the [orginal paper](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-024-02058-x).
 
+## Slides
  <div align="center">
     <img src="/images/papers/trp.png" width="500px">
  </div>
+
+
+## PDFs
+[Main Content](/files/publication/Tryptophan_imaging_supp.docx)<br>
+[Supplementary Information](/files/publication/Tryptophan_imaging.pdf)
