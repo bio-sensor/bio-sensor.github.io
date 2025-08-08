@@ -45,7 +45,8 @@ main:
   - title: "Resources"
     url: /resources/
 
-
+  - title: "Team"
+    url: /Team/
 
   #- title: "Lab"
   #  url: /lab/
