@@ -45,7 +45,7 @@ For detailed usage of these biosensors in imaging, or for plasmid requests, plea
 3. [zStimuli V4.0](/files/app/zStimuli4.0.exe) controls Arduino via serial communication to deliver multimodal stimuli for experiments
    <div style="text-align: left;"><br>
         <a href="/files/app/pic/zStimuli.png" target="_blank">
-            <img src="/files/app/pic/zStimuli.png" alt="zGrating" width="400px">
+            <img src="/files/app/pic/zStimuli.png" alt="zGrating" width="300px">
         </a>
     </div><br>
 
