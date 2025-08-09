@@ -6,6 +6,7 @@ redirect\_from:
  - /about/
  - /about.html
  - /news/
+comments: true
 ---
 
 <!-- Personal Statement -->
@@ -13,7 +14,7 @@ redirect\_from:
 <br>
 <section id="about">
   <br>
-  <h1>About Kui Wang</h1>
+  <h1>About Dr. Kui Wang</h1>
   <p></p>
 </section>
 
@@ -113,3 +114,21 @@ We are currently integrating advanced technologies such as **AI-assisted protein
   <a href="https://info.flagcounter.com/b5Gl"><img src="https://s01.flagcounter.com/count/b5Gl/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_4/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 </div>
 
+
+<br>
+{% if site.disqus.shortname %}
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = '{{ page.url | absolute_url }}';
+      this.page.identifier = '{{ page.id }}';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>请启用 JavaScript 以查看评论。</noscript>
+{% endif %}
