@@ -41,11 +41,11 @@ We are currently integrating advanced technologies such as **AI-assisted protein
 </section>
 <br>
 
-* Aug 11, 2025: ✨✨ We are pleased to welcome [Lexin](/team) to our team as a summer intern.
+* Aug 11, 2025: ✨✨ We are pleased to welcome [Lexin](/team/#Lexin) to our team as a summer intern.
 
-* July 14, 2025: ✨✨ We are pleased to welcome [Yuanhua](/team), [Yihan](/team), [Yongkang](/team), [Ziyu](/team) to our team as a summer intern.
+* July 14, 2025: ✨✨ We are pleased to welcome [Yuanhua](/team/#Yuanhua), [Yihan](/team/#Yihan), [Yongkang](/team/#Yongkang), [Ziyu](/team/#Ziyu) to our team as a summer intern.
 
-* May 14, 2025: We are pleased to welcome [Jia Qian](/team) to our team. She joins us to complete her undergraduate thesis research.
+* May 14, 2025: We are pleased to welcome [Jia Qian](/team/#Jia) to our team. She joins us to complete her undergraduate thesis research.
 
 
 
