@@ -41,6 +41,9 @@ We are currently integrating advanced technologies such as **AI-assisted protein
 </section>
 <br>
 
+* Oct 23, 2025: 📅 Planning to attend the [2025 CSBMB Annual Symposium](https://www.csbmb.org.cn/2025/eindex.html) in Nanchang.
+ 
+
 * Aug 11, 2025: ✨✨ We are pleased to welcome [Lexin](/team/#Lexin) to our team as a summer intern.
 
 * July 14, 2025: ✨✨ We are pleased to welcome [Yuanhua](/team/#Yuanhua), [Yihan](/team/#Yihan), [Yongkang](/team/#Yongkang), [Ziyu](/team/#Ziyu) to our team as a summer intern.
