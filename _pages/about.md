@@ -43,10 +43,16 @@ We are currently integrating advanced technologies such as **AI-assisted protein
 
 * Oct 23, 2025: 📅 Planning to attend the [2025 CSBMB Annual Symposium](https://www.csbmb.org.cn/2025/eindex.html) in Nanchang.
  
+* Aug 24, 2025: ✨✨ New molecular bench!
+<div style="text-align: center;">
+    <a href="/images/news/benches.png" target="_blank">
+        <img src="/images/news/benches.png" alt="Benches" width="600px">
+    </a>
+</div>
 
 * Aug 11, 2025: ✨✨ We are pleased to welcome [Lexin](/Team/#Lexin) to our team as a summer intern.
 
-* July 14, 2025: ✨✨ We are pleased to welcome [Yuanhua](/Team/#Yuanhua), [Yihan](/Team/#Yihan), [Yongkang](/Team/#Yongkang), [Ziyu](/Team/#Ziyu) to our team as a summer intern.
+* July 14, 2025: We are pleased to welcome [Yuanhua](/Team/#Yuanhua), [Yihan](/Team/#Yihan), [Yongkang](/Team/#Yongkang), [Ziyu](/Team/#Ziyu) to our team as a summer intern.
 
 * May 14, 2025: We are pleased to welcome [Jia Qian](/Team/#Jia) to our team. She joins us to complete her undergraduate thesis research.
 
