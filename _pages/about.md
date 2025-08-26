@@ -43,7 +43,7 @@ We are currently integrating advanced technologies such as **AI-assisted protein
 
 * Oct 23, 2025: 📅 Planning to attend the [2025 CSBMB Annual Symposium](https://www.csbmb.org.cn/2025/eindex.html) in Nanchang.
 
-* 🎉🎉 Congratulations! Summer intern Yun's piece, "One Flower, One Universe," has won First Prize in the National Microbiology Competition!
+* Aug 26, 2025: 🎉🎉 Congratulations! Summer intern Yun's piece, "One Flower, One Universe," has won First Prize in the National Microbiology Competition!
 <div style="text-align: center;">
     <a href="/images/news/One flower, one universe.gif" target="_blank">
         <img src="/images/news/One flower, one universe.gif" alt="Benches" width="200px">
