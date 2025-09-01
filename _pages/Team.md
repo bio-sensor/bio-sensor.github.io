@@ -26,6 +26,12 @@ Today, we’ve built a dynamic and collaborative team—highly capable, full of 
   B.Sc. candidate from <strong>Shanghai Normal University</strong>, currently completing her undergraduate thesis within our team. Her research focuses on <strong>the development of genetically encoded auxin biosensors for plant growth studies</strong>, integrating <strong>plant physiology</strong> with <strong>molecular probe design</strong>.
 </p>
 
+<h3 id="Yuanhua" style="scroll-margin-top: 200px;">🐟 Yuanhua Wang (July 2025 -)</h3>
+<p>
+  Undergraduate student from <strong>Southwest University</strong>, currently working on <strong>in vivo imaging in zebrafish</strong> and <strong>functional validation of genetically encoded probes</strong>, contributing to the development of <strong>real-time biological sensing tools</strong>.
+</p>
+
+
 <!-- 🌞 Summer Interns -->
 <h2>🌞 Summer Interns</h2>
 
@@ -36,10 +42,7 @@ Today, we’ve built a dynamic and collaborative team—highly capable, full of 
   Undergraduate student from <strong>Shanghai University</strong>, joining our team as a summer intern to explore <strong>molecular probe technologies</strong> and assist in <strong>biosensor experiments</strong>.
 </p>
 
-<h3 id="Yuanhua" style="scroll-margin-top: 200px;">🐟 Yuanhua Wang (July 2025 -)</h3>
-<p>
-  Undergraduate student from <strong>Southwest University</strong>, currently working on <strong>in vivo imaging in zebrafish</strong> and <strong>functional validation of genetically encoded probes</strong>, contributing to the development of <strong>real-time biological sensing tools</strong>.
-</p>
+
 
 <h3 id="Yongkang" style="scroll-margin-top: 200px;">🧬 Yongkang Che (July 2025 -)</h3>
 <p>
