@@ -29,10 +29,7 @@ Today, we’ve built a dynamic and collaborative team—highly capable, full of 
 <!-- 🌞 Summer Interns -->
 <h2>🌞 Summer Interns</h2>
 
-<h3 id="Lexin" style="scroll-margin-top: 200px;">🧫 Lexin Chang (Aug 2025 - )</h3>
-<p>
-  Undergraduate student from <strong>Jiangxi Normal University</strong>, currently learning <strong>molecular biology experiments</strong> and building essential lab skills for future research in <strong>biosensing</strong> and <strong>synthetic biology</strong>.
-</p>
+
 
 <h3 id="Yihan" style="scroll-margin-top: 200px;">🧪 Yihan Zhou (July 2025 -)</h3>
 <p>
@@ -48,6 +45,13 @@ Today, we’ve built a dynamic and collaborative team—highly capable, full of 
 <p>
   Undergraduate student from <strong>University of Glasgow</strong>, focusing on <strong>in vitro detection and validation of biosensors</strong>, while developing core <strong>molecular biology techniques</strong> through hands-on experimentation.
 </p>
+
+
+<h3 id="Lexin" style="scroll-margin-top: 200px;">🧫 Lexin Chang (Aug 2025 - Aug 2025)</h3>
+<p>
+  Undergraduate student from <strong>Jiangxi Normal University</strong>, currently learning <strong>molecular biology experiments</strong> and building essential lab skills for future research in <strong>biosensing</strong> and <strong>synthetic biology</strong>.
+</p>
+
 
 <h3 id="Yun" style="scroll-margin-top: 200px;">🎨 Yun Wang (June 2025 - Aug 2025)</h3>
 <p>
