@@ -45,6 +45,7 @@ We are currently integrating advanced technologies such as **AI-assisted protein
 <div style="text-align: center;">
     <a href="/images/about/poster-award.jpg" target="_blank">
         <img src="/images/about/poster-award.jpg" alt="Benches" width="100px">
+        
     </a>
 </div>
 
