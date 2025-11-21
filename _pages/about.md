@@ -41,7 +41,20 @@ We are currently integrating advanced technologies such as **AI-assisted protein
 </section>
 <br>
 
-* Oct 23, 2025: 📅 Planning to attend the [2025 CSBMB Annual Symposium](https://www.csbmb.org.cn/2025/eindex.html) in Nanchang.
+* Oct 23, 2025: 🎉🎉 Congratulations to [Kui](/#about) for receiving the Excellent Poster Award at [2025 CSBMB Annual Symposium](https://www.csbmb.org.cn/2025/eindex.html) in Nanchang.
+<div style="text-align: center;">
+    <a href="/images/about/poster-award.jpg" target="_blank">
+        <img src="/images/about/poster-award.jpg" alt="Benches" width="100px">
+    </a>
+</div>
+
+* Nov 2, 2025: 🎉🎉 Congratulations to [Yihan](/Team/#Yihan) for winning First Prize at the Undergraduate Research Forum of Qian Weichang College!
+<div style="text-align: center;">
+    <a href="/images/about/yihan.jpg" target="_blank">
+        <img src="/images/about/yihan.jpg" alt="Benches" width="200px">
+    </a>
+</div>
+
 
 * Sep 10, 2025: 🎉🎉 Congratulations to [Qian Jia](/Team/#Jia) on winning second prize and a cash award for her thesis mid-term report!
 
