@@ -45,7 +45,7 @@ We are currently integrating advanced technologies such as **AI-assisted protein
 
 * Sep 10, 2025: 🎉🎉 Congratulations to [Qian Jia](/Team/#Jia) on winning second prize and a cash award for her thesis mid-term report!
 
-* Aug 26, 2025: 🎉🎉 Congratulations!！ Summer intern [Yun](/Team/#Yun)'s piece, "One Flower, One Universe," has won First Prize in the National Microbiology Competition!
+* Aug 26, 2025: Congratulations!！ Summer intern [Yun](/Team/#Yun)'s piece, "One Flower, One Universe," has won First Prize in the National Microbiology Competition!
 <div style="text-align: center;">
     <a href="/images/news/One flower, one universe.gif" target="_blank">
         <img src="/images/news/One flower, one universe.gif" alt="Benches" width="200px">
@@ -53,14 +53,14 @@ We are currently integrating advanced technologies such as **AI-assisted protein
 </div>
 
 
-* Aug 24, 2025: ✨✨ New molecular bench!
+* Aug 24, 2025: New molecular bench!
 <div style="text-align: center;">
     <a href="/images/news/benches.png" target="_blank">
         <img src="/images/news/benches.png" alt="Benches" width="600px">
     </a>
 </div>
 
-* Aug 11, 2025: ✨✨ We are pleased to welcome [Lexin](/Team/#Lexin) to our team as a summer intern.
+* Aug 11, 2025: We are pleased to welcome [Lexin](/Team/#Lexin) to our team as a summer intern.
 
 * July 14, 2025: We are pleased to welcome [Yuanhua](/Team/#Yuanhua), [Yihan](/Team/#Yihan), [Yongkang](/Team/#Yongkang), [Ziyu](/Team/#Ziyu) to our team as a summer intern.
 

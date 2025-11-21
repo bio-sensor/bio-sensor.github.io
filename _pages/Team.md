@@ -31,12 +31,6 @@ Today, we’ve built a dynamic and collaborative team—highly capable, full of 
   Undergraduate student from <strong>Southwest University</strong>, currently working on <strong>in vivo imaging in zebrafish</strong> and <strong>functional validation of genetically encoded probes</strong>, contributing to the development of <strong>real-time biological sensing tools</strong>.
 </p>
 
-
-<!-- 🌞 Summer Interns -->
-<h2>🌞 Summer Interns</h2>
-
-
-
 <h3 id="Yihan" style="scroll-margin-top: 200px;">🧪 Yihan Zhou (July 2025 -)</h3>
 <p>
   Undergraduate student from <strong>Shanghai University</strong>, joining our team as a summer intern to explore <strong>molecular probe technologies</strong> and assist in <strong>biosensor experiments</strong>.
@@ -44,7 +38,17 @@ Today, we’ve built a dynamic and collaborative team—highly capable, full of 
 
 
 
-<h3 id="Yongkang" style="scroll-margin-top: 200px;">🧬 Yongkang Che (July 2025 -)</h3>
+
+<!-- 🌞 Summer Interns -->
+<h2>🌞 Summer Interns</h2>
+
+
+
+
+
+
+
+<h3 id="Yongkang" style="scroll-margin-top: 200px;">🧬 Yongkang Che (July 2025 - Sep 2025)</h3>
 <p>
   Undergraduate student from <strong>University of Glasgow</strong>, focusing on <strong>in vitro detection and validation of biosensors</strong>, while developing core <strong>molecular biology techniques</strong> through hands-on experimentation.
 </p>
