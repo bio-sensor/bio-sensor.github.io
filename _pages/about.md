@@ -41,7 +41,7 @@ We are currently integrating advanced technologies such as **AI-assisted protein
 </section>
 <br>
 
-* Oct 23, 2025: 🎉🎉 Congratulations to [Kui](/#about) for receiving the Excellent Poster Award at [2025 CSBMB Annual Symposium](https://www.csbmb.org.cn/2025/eindex.html) in Nanchang.
+* Oct 23, 2025: 🎉🎉 Congratulations to [Kui](/#about) for receiving the Excellent [Poster](/publication/2025-04-05-Trp-metab-poster) Award at [2025 CSBMB Annual Symposium](https://www.csbmb.org.cn/2025/eindex.html) in Nanchang.
 <div style="text-align: center;">
     <a href="/images/about/poster-award.jpg" target="_blank">
         <img src="/images/about/poster-award.jpg" alt="Benches" width="100px">
