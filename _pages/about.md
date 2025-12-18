@@ -41,6 +41,17 @@ We are currently integrating advanced technologies such as **AI-assisted protein
 </section>
 <br>
 
+* Nov 1, 2025:  ✨✨We are pleased to welcome [Zhengyuan](/Team/#Zhengyuan) and [Yiran](/Team/#Yiran) to our team as post-graduate research assistants.
+
+
+
+* Nov 2, 2025: 🎉🎉 Congratulations to [Yihan](/Team/#Yihan) for winning First Prize at the Undergraduate Research Forum of [Qian Weichang College](https://qwc.shu.edu.cn/)!
+<div style="text-align: center;">
+    <a href="/images/about/yihan.jpg" target="_blank">
+        <img src="/images/about/yihan.jpg" alt="Benches" width="200px">
+    </a>
+</div>
+
 * Oct 23, 2025: 🎉🎉 Congratulations to [Kui](/#about) for receiving the Excellent [Poster](/publication/2025-04-05-Trp-metab-poster) Award at [2025 CSBMB Annual Symposium](https://www.csbmb.org.cn/2025/eindex.html) in Nanchang.
 <div style="text-align: center;">
     <a href="/images/about/poster-award.jpg" target="_blank">
@@ -49,17 +60,10 @@ We are currently integrating advanced technologies such as **AI-assisted protein
     </a>
 </div>
 
-* Nov 2, 2025: 🎉🎉 Congratulations to [Yihan](/Team/#Yihan) for winning First Prize at the Undergraduate Research Forum of Qian Weichang College!
-<div style="text-align: center;">
-    <a href="/images/about/yihan.jpg" target="_blank">
-        <img src="/images/about/yihan.jpg" alt="Benches" width="200px">
-    </a>
-</div>
-
-
 * Sep 10, 2025: 🎉🎉 Congratulations to [Qian Jia](/Team/#Jia) on winning second prize and a cash award for her thesis mid-term report!
 
-* Aug 26, 2025: Congratulations!！ Summer intern [Yun](/Team/#Yun)'s piece, "One Flower, One Universe," has won First Prize in the National Microbiology Competition!
+* Aug 26, 2025: Great news! Our summer intern [Yun](/Team/#Yun)  took home the <strong>First Prize at the National Microbiology Competition</strong> with her piece “One Flower, One Universe.” A fantastic achievement on the national stage!
+
 <div style="text-align: center;">
     <a href="/images/news/One flower, one universe.gif" target="_blank">
         <img src="/images/news/One flower, one universe.gif" alt="Benches" width="200px">
@@ -67,7 +71,7 @@ We are currently integrating advanced technologies such as **AI-assisted protein
 </div>
 
 
-* Aug 24, 2025: New molecular bench!
+* Aug 24, 2025: New molecular benches!
 <div style="text-align: center;">
     <a href="/images/news/benches.png" target="_blank">
         <img src="/images/news/benches.png" alt="Benches" width="600px">
@@ -82,7 +86,7 @@ We are currently integrating advanced technologies such as **AI-assisted protein
 
 
 
-* Jun 5, 2025: New [Chemigenetic Dopamine sensor](/publication/2025-03-21-HaloDA) paper published on ***Science*** !
+* Jun 5, 2025: New <a href="/publication/2025-03-21-HaloDA">Chemigenetic Dopamine sensor</a> paper published on <em><strong><span style="color: magenta;">Science</span></strong></em>!
 <div style="text-align: center;">
     <a href="/images/papers/HaloDA1.0.png" target="_blank">
         <img src="/images/papers/HaloDA1.0.png" alt="BD-dye" width="200px">

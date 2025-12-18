@@ -16,9 +16,14 @@ Today, we’ve built a dynamic and collaborative team—highly capable, full of 
 <!-- 🌞 Students -->
 <h2>🌞 Students</h2>
 
-<h3 id="Jie" style="scroll-margin-top: 100px;">👩‍🔬 Jie Li (Aug 2024 -)</h3>
+<h3 id="Yiran" style="scroll-margin-top: 100px;">🦠 Yiran Zhao (Feb 2026 -)</h3>
 <p>
-  M.Sc. candidate from <strong>Shanghai Ocean University</strong>, currently completing her thesis within our team. Her research focuses on <strong>the development of genetically encoded thermometers for in vivo applications in zebrafish</strong>, combining <strong>molecular imaging</strong> with <strong>temperature-sensitive biosensors</strong>.
+  M.Sc. graduate from <strong>Trinity College Dublin</strong> (B.Sc. from <strong>University College Dublin</strong>), currently an intern within our team. Her research interests lie in <strong>the physiological significance of gut microbiota</strong>, with a focus on re-examining microbial dynamics through the lens of <strong>in vivo metabolic imaging</strong>.
+</p>
+
+<h3 id="Zhengyuan" style="scroll-margin-top: 100px;">🧬 Zhengyuan Pan (2025 -)</h3>
+<p>
+  M.Sc. graduate from <strong>Johns Hopkins University</strong> (B.Sc. from <strong>SUNY Cobleskill</strong>), currently a research member within our team. Since joining, she has <strong>significantly accelerated the development of genetically encoded inorganic phosphate (Pi) probes</strong>, leading to substantial experimental breakthroughs.
 </p>
 
 <h3 id="Jia" style="scroll-margin-top: 100px;">🌿 Jia Qian (June 2025 -)</h3>
@@ -36,11 +41,14 @@ Today, we’ve built a dynamic and collaborative team—highly capable, full of 
   Undergraduate student from <strong>Shanghai University</strong>, joining our team as a summer intern to explore <strong>molecular probe technologies</strong> and assist in <strong>biosensor experiments</strong>.
 </p>
 
-
+<h3 id="Jie" style="scroll-margin-top: 100px;">👩‍🔬 Jie Li (Aug 2024 -)</h3>
+<p>
+  M.Sc. candidate from <strong>Shanghai Ocean University</strong>, currently completing her thesis within our team. Her research focuses on <strong>the development of genetically encoded thermometers for in vivo applications in zebrafish</strong>, combining <strong>molecular imaging</strong> with <strong>temperature-sensitive biosensors</strong>. He is currently preparing a first-author manuscript regarding in vivo imaging of CPPU sensor.
+</p>
 
 
 <!-- 🌞 Summer Interns -->
-<h2>🌞 Summer Interns</h2>
+<h2>🌞 Alumni</h2>
 
 
 
