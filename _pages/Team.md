@@ -2,7 +2,7 @@
 layout: archive
 title: "Our CNS Team"
 permalink: /Team/
-author_profile: true
+author_profile: false
 ---
 <br>
 <br>
