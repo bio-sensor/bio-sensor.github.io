@@ -6,34 +6,34 @@ author_profile: false
 ---
 
 <style>
-  /* --- 全局布局与字体 --- */
+  /* --- 全局容器 --- */
   .resource-container {
     max-width: 1000px;
     margin: 0 auto;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
 
-  /* 替代 <br> 的间距工具 */
+  /* --- 间距工具 --- */
   .section-spacer {
     margin-top: 60px;
     margin-bottom: 40px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.2); /* 半透明分割线 */
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
   }
 
-  /* --- 顶部导航栏 --- */
+  /* --- 顶部导航 --- */
   .resource-nav {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin: 30px 0;
     padding: 15px;
-    background: rgba(128, 128, 128, 0.05); /* 极淡背景 */
-    border-radius: 50px; /* 胶囊形状 */
+    background: rgba(128, 128, 128, 0.05);
+    border-radius: 50px;
   }
 
   .resource-nav a {
     text-decoration: none;
-    color: #2f7f93; /* 品牌蓝 */
+    color: #2f7f93;
     font-weight: bold;
     font-size: 1.1em;
     padding: 5px 15px;
@@ -47,13 +47,13 @@ author_profile: false
     transform: translateY(-2px);
   }
 
-  /* --- 通用卡片样式 (用于软件和协议) --- */
+  /* --- 卡片通用样式 --- */
   .resource-card {
     border: 1px solid rgba(128, 128, 128, 0.2);
     border-radius: 10px;
     padding: 25px;
     margin-bottom: 30px;
-    background: rgba(128, 128, 128, 0.02); /* 微微的底色 */
+    background: rgba(128, 128, 128, 0.02);
     transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
   }
 
@@ -74,9 +74,9 @@ author_profile: false
     padding-right: 20px;
   }
   
-  /* --- 表格美化 --- */
+  /* --- 表格样式 --- */
   .table-wrapper {
-    overflow-x: auto; /* 防止小屏溢出 */
+    overflow-x: auto;
   }
   
   table {
@@ -92,7 +92,7 @@ author_profile: false
   }
 
   tr:hover {
-    background-color: rgba(47, 127, 147, 0.05); /* 悬停高亮 */
+    background-color: rgba(47, 127, 147, 0.05);
   }
   
   th {
@@ -100,11 +100,36 @@ author_profile: false
     color: #2f7f93;
   }
 
-  /* --- RIA 软件部分 --- */
-  .ria-badges {
+  /* --- 关键修改：徽章区域样式 --- */
+  .badges-row, .software-badges {
     margin: 10px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap; /* 允许换行，防止溢出 */
+    align-items: center;
+    gap: 6px; /* 紧凑间距，尽量让它们在一行 */
+    line-height: 0; /* 消除文字行高影响 */
   }
-  
+
+  /* 让链接变成 flex 盒子，消除底部空白，并防止压缩 */
+  .badges-row a, 
+  .software-badges a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: none !important;
+    flex-shrink: 0; /* 禁止被压缩 */
+  }
+
+  /* 统一所有徽章高度，禁止压缩 */
+  .badges-row img, 
+  .software-badges img {
+    height: 20px; 
+    width: auto;
+    display: block;
+    flex-shrink: 0; /* 关键：防止徽章变形 */
+  }
+
+  /* --- 布局网格 --- */
   .ria-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -112,17 +137,16 @@ author_profile: false
     margin-top: 20px;
   }
   
-  /* --- 小软件网格布局 (Other Softwares) --- */
   .software-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 响应式：自动排布 */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
   }
 
   .small-software-card {
     display: flex;
     flex-direction: column;
-    height: 100%; /* 等高 */
+    height: 100%;
   }
 
   .software-img-container {
@@ -131,12 +155,11 @@ author_profile: false
     align-items: center;
     justify-content: center;
     margin: 15px 0;
-    background: rgba(255,255,255,0.05); /* 图片背景 */
+    background: rgba(255,255,255,0.05);
     padding: 10px;
     border-radius: 5px;
   }
 
-  /* --- 图片与文字 --- */
   .responsive-img {
     max-width: 100%;
     height: auto;
@@ -146,14 +169,14 @@ author_profile: false
 
   .caption {
     display: block; 
-    color: #888; /* 灰色文字 */
+    color: #888;
     font-size: 0.9em; 
     font-style: italic; 
-    margin-top: auto; /* 推到底部 */
+    margin-top: auto;
     text-align: center;
   }
 
-  /* --- 协议列表样式 --- */
+  /* --- 协议列表 --- */
   .protocol-list {
     list-style: none;
     padding: 0;
@@ -171,7 +194,7 @@ author_profile: false
     margin-right: 10px;
   }
 
-  /* --- 回到顶部按钮 --- */
+  /* --- 回到顶部 --- */
   #back-to-top {
     position: fixed;
     bottom: 40px;
@@ -185,18 +208,14 @@ author_profile: false
     cursor: pointer;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     z-index: 1000;
-    transition: background-color 0.3s ease;
     display: none;
   }
-
-  #back-to-top:hover {
-    background-color: #007bff;
-  }
+  #back-to-top:hover { background-color: #007bff; }
   
   /* 移动端适配 */
   @media (max-width: 768px) {
     .ria-grid {
-      grid-template-columns: 1fr; /* 手机上单列 */
+      grid-template-columns: 1fr;
     }
     .resource-nav {
       flex-wrap: wrap;
@@ -275,16 +294,10 @@ author_profile: false
 
   <div class="resource-card">
     <div style="margin-bottom: 15px;">
-      <strong>Ratio Imaging Analyzer (RIA)</strong> is a lightweight, user-friendly tool designed for processing dual-channel ratiometric fluorescence data (e.g., Calcium, FRET, NADH). It features automated alignment, smart background subtraction, and real-time ROI plotting.
+      Ratio Imaging Analyzer (RIA) is a lightweight, user-friendly tool designed for processing <strong>dual-channel ratiometric fluorescence data</strong> (e.g., Calcium, FRET, and metabolic sensors). It features automated ratiometric heatmap generation, smart background subtraction, and real-time ROI plotting.
     </div>
 
-    <div class="ria-badges">
-      <a href="https://github.com/Epivitae/RatioImagingAnalyzer"><img src="https://img.shields.io/badge/version-v1.7.5-blue" alt="Version"></a>
-      <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
-      <img src="https://img.shields.io/badge/python-3.8%2B-yellow" alt="Python">
-      &nbsp;
-      <a href="https://github.com/Epivitae/RatioImagingAnalyzer" style="color:#2f7f93; font-weight:bold; margin-left: 10px;">View on GitHub →</a>
-    </div>
+    <div class="badges-row"><a href="https://github.com/Epivitae/RatioImagingAnalyzer"><img src="https://img.shields.io/badge/version-v1.7.5-blue" alt="Version"></a><img src="https://img.shields.io/badge/license-MIT-green" alt="License"><img src="https://img.shields.io/badge/python-3.8%2B-yellow" alt="Python"><a href="/#about"><img src="https://img.shields.io/badge/Developer-Kui_Wang-2f7f93" alt="Developer"></a><a href="https://github.com/Epivitae/RatioImagingAnalyzer" style="color:#2f7f93; margin-left: auto;">View on GitHub →</a></div>
 
     <div class="ria-grid">
       <div>
@@ -313,18 +326,15 @@ author_profile: false
       <div style="margin-bottom: 10px; font-size: 0.95em;">
         A self-developed tool for microplate data preprocessing.
       </div>
-      <div style="margin-bottom: 15px;">
-        <a href="/files/app/mProcess%20V4.0.exe" style="text-decoration: none;">
-          <img src="https://img.shields.io/badge/Download-mProcess_V4.0-007bff" alt="Download">
-        </a>
-        <img src="https://img.shields.io/badge/license-Freeware-green" alt="License">
-      </div>
+      
+      <div class="software-badges"><a href="/files/app/mProcess%20V4.0.exe" style="text-decoration: none;"><img src="https://img.shields.io/badge/Download-mProcess_V4.0-007bff" alt="Download"></a><img src="https://img.shields.io/badge/license-Freeware-green" alt="License"><a href="/#about"><img src="https://img.shields.io/badge/Developer-Kui_Wang-2f7f93" alt="Developer"></a></div>
+      
       <div class="software-img-container">
         <a href="/files/app/pic/mProcess.gif" target="_blank">
           <img src="/files/app/pic/mProcess.gif" alt="mProcess" class="responsive-img">
         </a>
       </div>
-      <span class="caption">Figure 1: Batch data processing interface.</span>
+      <span class="caption">Batch data processing interface.</span>
     </div>
 
     <div class="resource-card small-software-card">
@@ -334,18 +344,15 @@ author_profile: false
       <div style="margin-bottom: 10px; font-size: 0.95em;">
         A self-developed visual stimulus generator.
       </div>
-      <div style="margin-bottom: 15px;">
-        <a href="/files/app/zGrating_V2.3.exe" style="text-decoration: none;">
-          <img src="https://img.shields.io/badge/Download-zGrating_V2.3-007bff" alt="Download">
-        </a>
-        <img src="https://img.shields.io/badge/license-Freeware-green" alt="License">
-      </div>
+      
+      <div class="software-badges"><a href="/files/app/zGrating_V2.3.exe" style="text-decoration: none;"><img src="https://img.shields.io/badge/Download-zGrating_V2.3-007bff" alt="Download"></a><img src="https://img.shields.io/badge/license-Freeware-green" alt="License"><a href="/#about"><img src="https://img.shields.io/badge/Developer-Kui_Wang-2f7f93" alt="Developer"></a></div>
+      
       <div class="software-img-container">
         <a href="/files/app/pic/zGrating.gif" target="_blank">
           <img src="/files/app/pic/zGrating.gif" alt="zGrating" class="responsive-img">
         </a>
       </div>
-      <span class="caption">Figure 2: Radial grating pattern generation.</span>
+      <span class="caption">Radial grating pattern generation</span>
     </div>
 
     <div class="resource-card small-software-card">
@@ -353,20 +360,17 @@ author_profile: false
         <strong>3. zStimuli</strong>
       </div>
       <div style="margin-bottom: 10px; font-size: 0.95em;">
-        Controls Arduino via serial communication for multimodal stimuli.
+        Controls Arduino via serial communication for multimodal stimuli
       </div>
-      <div style="margin-bottom: 15px;">
-        <a href="/files/app/zStimuli4.0.exe" style="text-decoration: none;">
-          <img src="https://img.shields.io/badge/Download-zStimuli_V4.0-007bff" alt="Download">
-        </a>
-        <img src="https://img.shields.io/badge/license-Freeware-green" alt="License">
-      </div>
+      
+      <div class="software-badges"><a href="/files/app/zStimuli4.0.exe" style="text-decoration: none;"><img src="https://img.shields.io/badge/Download-zStimuli_V4.0-007bff" alt="Download"></a><img src="https://img.shields.io/badge/license-Freeware-green" alt="License"><a href="/#about"><img src="https://img.shields.io/badge/Developer-Kui_Wang-2f7f93" alt="Developer"></a></div>
+      
       <div class="software-img-container">
         <a href="/files/app/pic/zStimuli.png" target="_blank">
           <img src="/files/app/pic/zStimuli.png" alt="zStimuli" class="responsive-img">
         </a>
       </div>
-      <span class="caption">Figure 3: Control panel for experimental stimuli.</span>
+      <span class="caption">Control panel for experimental stimuli</span>
     </div>
 
   </div>

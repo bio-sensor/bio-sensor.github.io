@@ -177,7 +177,7 @@ comments: true
       </p>
 
       <p>
-        My recent research focuses on developing <strong>Chimeric Nano Sensors</strong> for in vivo imaging. During my doctoral studies, I introduced a novel tryptophan fluorescent protein sensor, enabling absolute quantification of tryptophan dynamics with single-cell resolution and whole-body precision (<a href="/publication/2023-10-31-Tryptophan-sensor">Cell Discovery, 2023</a>). Leveraging this sensor, we achieved quantitative imaging of tryptophan across diverse samples—including <em>E. coli</em>, mammalian cells, zebrafish, and human samples—ultimately delineating the systemic redistribution patterns of tryptophan triggered by inflammation (<a href="/publication/2024-11-14-Tryptophan-imaging">BMC Biology, 2024</a>).
+        My recent research focuses on developing <strong>Chimeric Nano Sensors (CNS)</strong> for in vivo imaging. During my doctoral studies, I introduced a novel tryptophan fluorescent protein sensor, enabling absolute quantification of tryptophan dynamics with single-cell resolution and whole-body precision (<a href="/publication/2023-10-31-Tryptophan-sensor">Cell Discovery, 2023</a>). Leveraging this sensor, we achieved quantitative imaging of tryptophan across diverse samples—including <em>E. coli</em>, mammalian cells, zebrafish, and human samples—ultimately delineating the systemic redistribution patterns of tryptophan triggered by inflammation (<a href="/publication/2024-11-14-Tryptophan-imaging">BMC Biology, 2024</a>).
       </p>
 
       <p>
@@ -189,7 +189,7 @@ comments: true
       </p>
 
       <p>
-        We are currently integrating advanced technologies such as <strong>AI-assisted protein design</strong>, <strong>semi-automated high-throughput screening</strong>, <strong>rapid in vivo expression in zebrafish</strong>, and <strong>light-sheet microscopy imaging</strong> to develop next-generation optical imaging tools. These efforts aim to address key scientific questions in <strong>molecular and cellular neurobiology</strong>, <strong>neuromodulation of metabolism</strong>, and <strong>neuro–tumor interactions</strong>.
+        We are currently integrating advanced technologies such as <strong>AI-assisted protein design</strong>, <strong>semi-automated high-throughput screening</strong>, <strong>rapid in vivo expression in zebrafish</strong>, and <strong>light-sheet microscopy imaging</strong> to develop next-generation optical imaging tools. These efforts aim to address key scientific questions in molecular and cellular neurobiology, neuromodulation of metabolism, and neuro–tumor interactions.
       </p>
     </div>
   </section>
