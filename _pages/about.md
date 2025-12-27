@@ -347,7 +347,7 @@ comments: true
         </div>
       </div>
 
-      <div class="news-item">
+      <div class="news-item  highlight-news">
         <div class="news-date">Oct 31, 2023</div>
         <div class="news-body">
           📄 New <a href="/publication/2023-10-31-Tryptophan-sensor">Fluorescent Tryptophan Sensor</a> paper published in <strong>Cell Discovery</strong>.
