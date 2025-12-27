@@ -6,6 +6,7 @@ permalink: /publication/2024-11-14-Tryptophan-imaging
 excerpt: 'This study presents GRIT as a tool to measure tryptophan dynamics, linking immune response, behavior, and diagnostic potential.'
 date: 2024-11-14
 venue: 'BMC Biology'
+author_profile: false
 #slidesurl: 'http://epivitae.github.io/files/slides1.pdf'
 paperurl: 'http://epivitae.github.io/files/publication/Tryptophan_imaging.pdf'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'

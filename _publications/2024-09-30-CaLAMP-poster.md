@@ -6,6 +6,7 @@ permalink: /publication/2024-09-30-CaLAMP-poster
 excerpt: 'A new bioluminescent calcium sensor and its application *in vivo*.'
 date: 2024-09-30
 venue: 'CNS2024'
+author_profile: false
 #slidesurl: 'http://epivitae.github.io/files/publication/HaloDA1.0.pdf'
 paperurl: '/publication/2024-09-30-CaLAMP-poster'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
