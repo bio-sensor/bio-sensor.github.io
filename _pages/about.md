@@ -1,171 +1,405 @@
 ---
-permalink: /  
-title: ""  
-#author\_profile: true  
-redirect\_from:
- - /about/
- - /about.html
- - /news/
+permalink: /
+title: ""
+redirect_from:
+  - /about/
+  - /about.html
+  - /news/
 comments: true
 ---
 
-<!-- Personal Statement -->
+<style>
+  /* --- 全局容器 --- */
+  .page-container {
+    max-width: 900px;
+    margin: 0 auto;
+    /* 关键：不设定 color 和 background，直接继承主题的 body 设置 */
+  }
 
-<br>
-<section id="about">
-  <br>
-  <h1>About Dr. Kui Wang</h1>
-  <p></p>
-</section>
+  /* --- 标题通用样式 --- */
+  .section-heading {
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    /* 使用半透明边框，无论黑底白底都能看到一条淡淡的线 */
+    border-bottom: 2px solid rgba(128, 128, 128, 0.2); 
+    position: relative;
+    color: inherit; /* 继承主题标题颜色 */
+  }
+  
+  /* 标题下的蓝色装饰线 (保留品牌色) */
+  .section-heading::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background-color: #2f7f93; 
+  }
+
+  /* --- About 部分样式 --- */
+  .about-content {
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+    color: inherit; /* 关键：继承主题默认文字颜色 */
+  }
+
+  .about-content p {
+    margin-bottom: 20px;
+  }
+
+  /* 链接样式：保留品牌色，但悬停效果适配 */
+  .about-content a, .news-body a {
+    color: #2f7f93; /* 品牌蓝在深色/浅色背景下通常都可见 */
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px dotted #2f7f93;
+    transition: all 0.2s;
+  }
+
+  .about-content a:hover, .news-body a:hover {
+    opacity: 0.7; /* 悬停时不改颜色，而是改透明度，这样更兼容 */
+    border-bottom-style: solid;
+  }
+
+  /* --- News 时间轴样式 --- */
+  .news-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .news-item {
+    display: flex;
+    gap: 25px;
+    padding-bottom: 25px;
+    /* 使用半透明边框作为分割线 */
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2); 
+  }
+
+  .news-item:last-child {
+    border-bottom: none;
+  }
+
+  /* 日期列 */
+  .news-date {
+    flex-shrink: 0;
+    width: 120px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    color: #2f7f93; /* 日期使用品牌色，突出显示 */
+    font-size: 0.95em;
+    text-align: right;
+    padding-top: 2px;
+  }
+
+  /* 内容列 */
+  .news-body {
+    flex-grow: 1;
+    font-size: 1em;
+    line-height: 1.6;
+    color: inherit; /* 继承主题默认文字颜色 */
+  }
+
+  /* 强调高亮的新闻 (Science/Nature) */
+  .highlight-news {
+    /* 使用 10% 透明度的品牌色作为背景 */
+    /* 这样在白底是淡蓝，在黑底是深蓝，完美兼容 */
+    background-color: rgba(47, 127, 147, 0.08); 
+    border-left: 3px solid #2f7f93;
+    padding: 15px;
+    border-radius: 0 8px 8px 0;
+    margin-left: -15px; /* 修正padding带来的视觉偏移 */
+  }
+
+  /* 新闻中的图片容器 */
+  .news-img-box {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 5px;
+    /* 图片边框和背景也使用半透明 */
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    background: rgba(128, 128, 128, 0.05); 
+    border-radius: 6px;
+    transition: transform 0.2s;
+  }
+
+  .news-img-box:hover {
+    transform: scale(1.02);
+  }
+
+  .news-img-box img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
+
+  /* --- 访客统计样式 --- */
+  .footer-counter {
+    margin-top: 80px;
+    padding: 20px;
+    /* 使用极淡的半透明背景 */
+    background: rgba(128, 128, 128, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  /* --- 移动端适配 --- */
+  @media (max-width: 768px) {
+    .news-item {
+      flex-direction: column;
+      gap: 5px;
+    }
+    .news-date {
+      text-align: left;
+      width: 100%;
+      font-size: 0.85em;
+    }
+    .highlight-news {
+      margin-left: 0;
+    }
+  }
+</style>
+
+<div class="page-container">
+
+  <section id="about">
+    <h1 class="section-heading">About Dr. Kui Wang</h1>
+    
+    <div class="about-content">
+      <p>
+        Hi, I am Kui! I was born in <a href="https://en.wikipedia.org/wiki/Jingjiang" target="_blank">Jingjiang</a> and am currently a postdoctoral researcher at the Institute of Neuroscience (<a href="http://english.cebsit.cas.cn/" target="_blank">ION</a>), Chinese Academy of Sciences (CAS), working with the support of Dr. <a href="http://www.mulab.org" target="_blank">Yu Mu</a>. Previously, I obtained my Ph.D. in Genetics from the Institute of Genetics and Developmental Biology, CAS, where I was mentored by Dr. <a href="http://lulab.genetics.ac.cn" target="_blank">Falong Lu</a>.
+      </p>
+
+      <p>
+        My recent research focuses on developing <strong>Chimeric Nano Sensors</strong> for in vivo imaging. During my doctoral studies, I introduced a novel tryptophan fluorescent protein sensor, enabling absolute quantification of tryptophan dynamics with single-cell resolution and whole-body precision (<a href="/publication/2023-10-31-Tryptophan-sensor">Cell Discovery, 2023</a>). Leveraging this sensor, we achieved quantitative imaging of tryptophan across diverse samples—including <em>E. coli</em>, mammalian cells, zebrafish, and human samples—ultimately delineating the systemic redistribution patterns of tryptophan triggered by inflammation (<a href="/publication/2024-11-14-Tryptophan-imaging">BMC Biology, 2024</a>).
+      </p>
+
+      <p>
+        In response to the rising demands for simultaneous imaging of multiple physiological indicators, I collaborated with <a href="http://www.yulonglilab.org/" target="_blank">Yulong Li</a>'s group at Peking University to develop a chemogenetic infrared dopamine sensor HaloDA1.0. This innovation, when paired with a red calcium sensor and a green ATP sensor, enables the simultaneous imaging of distinct physiological indicators during epileptic states in zebrafish (<a href="/publication/2025-03-21-HaloDA">Science, 2025</a>). 
+      </p>
+
+      <p>
+        To further enhance the usability and brightness of chemogenetic imaging, I partnered with <a href="https://zhixingchenlab.mysxl.cn/" target="_blank">Zhixing Chen</a>'s team at Peking University to develop BD dyes. These multi-colored chemical dyes, with improved brightness and cell permeability, are designed for seamless integration with genetically encoded indicators, enabling high-precision live imaging across various species, including zebrafish (<a href="/publication/2025-02-27-BD-Dye">Nature Methods, 2025</a>).
+      </p>
+
+      <p>
+        We are currently integrating advanced technologies such as <strong>AI-assisted protein design</strong>, <strong>semi-automated high-throughput screening</strong>, <strong>rapid in vivo expression in zebrafish</strong>, and <strong>light-sheet microscopy imaging</strong> to develop next-generation optical imaging tools. These efforts aim to address key scientific questions in <strong>molecular and cellular neurobiology</strong>, <strong>neuromodulation of metabolism</strong>, and <strong>neuro–tumor interactions</strong>.
+      </p>
+    </div>
+  </section>
 
 
-<br>
-Hi, I am Kui！I was born in [Jingjiang](https://en.wikipedia.org/wiki/Jingjiang) and am currently a postdoctoral researcher at the Institute of Neuroscience [(ION)](http://english.cebsit.cas.cn/), Chinese Academy of Sciences (CAS), working with the support of Dr. [Yu Mu](http://www.mulab.org). Previously, I obtained my Ph.D. in Genetics from the Institute of Genetics and Developmental Biology, CAS, where I was mentored by Dr. [Falong Lu](http://lulab.genetics.ac.cn).
+  <section id="news">
+    <h1 class="section-heading">News & Updates</h1>
+    
+    <div class="news-feed">
 
-My recent research focuses on developing Chimeric Nano Sensors for in vivo imaging. During my doctoral studies, I introduced a novel tryptophan fluorescent protein sensor, enabling absolute quantification of tryptophan dynamics with single-cell resolution and whole-body precision ([Cell Discovery, 2023](/publication/2023-10-31-Tryptophan-sensor)). Leveraging this sensor, we achieved quantitative imaging of tryptophan across diverse samples, including _E. coli_, mammalian cells, zebrafish, and human samples, ultimately delineating the systemic redistribution patterns of tryptophan triggered by inflammation ([BMC Biology, 2024](/publication/2024-11-14-Tryptophan-imaging)). <!---Additionally, we applied artificial intelligence algorithms to develop a computationally assisted rapid protein evolution workflow. Using this approach, we successfully engineered >20 metabolites sensors in a short period (currently in preparation), promising exciting advancements in the near future.--->
+      <div class="news-item">
+        <div class="news-date">Nov 1, 2025</div>
+        <div class="news-body">
+          ✨ We are pleased to welcome <a href="/Team/#Zhengyuan">Zhengyuan</a> and <a href="/Team/#Yiran">Yiran</a> to our team as post-graduate research assistants.
+        </div>
+      </div>
 
-In response to the rising demands for simultaneous imaging of multiple physiological indicators, I collaborated with [Yulong Li](http://www.yulonglilab.org/)'s group at Peking University to develop a chemogenetic infrared dopamine sensor HaloDA1.0. This innovation, when paired with a red calcium sensor and a green ATP sensor, enables the simultaneous imaging of distinct physiological indicators during epileptic states in zebrafish ([Science, 2025](/publication/2025-03-21-HaloDA)). To further enhance the usability and brightness of chemogenetic imaging, I partnered with [Zhixing Chen](https://zhixingchenlab.mysxl.cn/)'s team at Peking University to develop BD dyes. These multi-colored chemical dyes, with improved brightness and cell permeability, are designed for seamless integration with genetically encoded indicators, enabling high-precision live imaging across various species, including zebrafish ([Nature Methods, 2025](/publication/2025-02-27-BD-Dye)).
+      <div class="news-item">
+        <div class="news-date">Nov 2, 2025</div>
+        <div class="news-body">
+          🎉 Congratulations to <a href="/Team/#Yihan">Yihan</a> for winning <strong>First Prize</strong> at the Undergraduate Research Forum of <a href="https://qwc.shu.edu.cn/" target="_blank">Qian Weichang College</a>!
+          <br>
+          <div class="news-img-box">
+            <a href="/images/about/yihan.jpg" target="_blank">
+              <img src="/images/about/yihan.jpg" alt="Award" style="width: 200px;">
+            </a>
+          </div>
+        </div>
+      </div>
 
+      <div class="news-item">
+        <div class="news-date">Oct 23, 2025</div>
+        <div class="news-body">
+          🎉 Congratulations to <a href="/#about">Kui</a> for receiving the <strong>Excellent Poster Award</strong> at the <a href="https://www.csbmb.org.cn/2025/eindex.html" target="_blank">2025 CSBMB Annual Symposium</a> in Nanchang.
+          <br>
+          <div class="news-img-box">
+             <a href="/images/about/poster-award.jpg" target="_blank">
+               <img src="/images/about/poster-award.jpg" alt="Poster Award" style="width: 120px;">
+             </a>
+          </div>
+        </div>
+      </div>
 
-We are currently integrating advanced technologies such as **AI-assisted protein design**, **semi-automated high-throughput screening**, **rapid in vivo expression in zebrafish**, and **light-sheet microscopy imaging** to develop next-generation optical imaging tools. These efforts aim to address key scientific questions in **molecular and cellular neurobiology**, **neuromodulation of metabolism**, and **neuro–tumor interactions**.
+      <div class="news-item">
+        <div class="news-date">Sep 10, 2025</div>
+        <div class="news-body">
+          🎉 Congratulations to <a href="/Team/#Jia">Qian Jia</a> on winning second prize and a cash award for her thesis mid-term report!
+        </div>
+      </div>
 
+      <div class="news-item">
+        <div class="news-date">Aug 26, 2025</div>
+        <div class="news-body">
+          🏆 Great news! Our summer intern <a href="/Team/#Yun">Yun</a> took home the <strong>First Prize at the National Microbiology Competition</strong> with her piece “One Flower, One Universe.” A fantastic achievement on the national stage!
+          <br>
+          <div class="news-img-box">
+            <a href="/images/news/One flower, one universe.gif" target="_blank">
+              <img src="/images/news/One flower, one universe.gif" alt="Microbial Art" style="width: 200px;">
+            </a>
+          </div>
+        </div>
+      </div>
 
-<!-- As I look ahead to the next stage of my career, I am actively exploring opportunities for a second round of postdoctoral training. Areas of interest include **_De novo_ Protein Design**, Neuro-Immune Interaction, and Neuro-Tumor Interaction. -->
+      <div class="news-item">
+        <div class="news-date">Aug 24, 2025</div>
+        <div class="news-body">
+          🧪 New molecular benches installed! Ready for more experiments.
+          <br>
+          <div class="news-img-box">
+             <a href="/images/news/benches.png" target="_blank">
+               <img src="/images/news/benches.png" alt="Lab Benches" style="width: 400px;">
+             </a>
+          </div>
+        </div>
+      </div>
 
+      <div class="news-item">
+        <div class="news-date">Aug 11, 2025</div>
+        <div class="news-body">
+          👋 We are pleased to welcome <a href="/Team/#Lexin">Lexin</a> to our team as a summer intern.
+        </div>
+      </div>
 
-<br><br><br>
-<section id="news">
-  <br>
-  <h1>News</h1>
-  <p></p>
-</section>
-<br>
+      <div class="news-item">
+        <div class="news-date">Jul 14, 2025</div>
+        <div class="news-body">
+          👋 We are pleased to welcome <a href="/Team/#Yuanhua">Yuanhua</a>, <a href="/Team/#Yihan">Yihan</a>, <a href="/Team/#Yongkang">Yongkang</a>, and <a href="/Team/#Ziyu">Ziyu</a> to our team as summer interns.
+        </div>
+      </div>
 
-* Nov 1, 2025:  ✨✨We are pleased to welcome [Zhengyuan](/Team/#Zhengyuan) and [Yiran](/Team/#Yiran) to our team as post-graduate research assistants.
+       <div class="news-item highlight-news">
+        <div class="news-date">Jun 5, 2025</div>
+        <div class="news-body">
+          📄 New <a href="/publication/2025-03-21-HaloDA">Chemigenetic Dopamine Sensor</a> paper published in <strong style="color: #d10056;">Science</strong>!
+          <br>
+          <div class="news-img-box">
+             <a href="/images/papers/HaloDA1.0.png" target="_blank">
+                <img src="/images/papers/HaloDA1.0.png" alt="HaloDA Paper" style="width: 180px;">
+             </a>
+          </div>
+        </div>
+      </div>
 
+      <div class="news-item highlight-news">
+        <div class="news-date">May 20, 2025</div>
+        <div class="news-body">
+          📄 New <a href="/publication/2025-02-27-BD-Dye">Chemigenetic Dyes</a> paper published in <strong>Nature Methods</strong>.
+          <br>
+          <div class="news-img-box">
+             <a href="/images/papers/BD-dye.png" target="_blank">
+                <img src="/images/papers/BD-dye.png" alt="BD Dye" style="width: 180px;">
+             </a>
+          </div>
+        </div>
+      </div>
 
+      <div class="news-item">
+        <div class="news-date">May 14, 2025</div>
+        <div class="news-body">
+          👋 We are pleased to welcome <a href="/Team/#Jia">Jia Qian</a> to our team. She joins us to complete her undergraduate thesis research.
+        </div>
+      </div>
 
-* Nov 2, 2025: 🎉🎉 Congratulations to [Yihan](/Team/#Yihan) for winning First Prize at the Undergraduate Research Forum of [Qian Weichang College](https://qwc.shu.edu.cn/)!
-<div style="text-align: center;">
-    <a href="/images/about/yihan.jpg" target="_blank">
-        <img src="/images/about/yihan.jpg" alt="Benches" width="200px">
+      <div class="news-item">
+        <div class="news-date">Apr 7, 2025</div>
+        <div class="news-body">
+          📊 Presented a poster on <a href="/publication/2025-04-05-Trp-metab-poster">Tryptophan metabolism</a> at Cell Symposia in Shenzhen.
+        </div>
+      </div>
+
+      <div class="news-item highlight-news">
+        <div class="news-date">Nov 14, 2024</div>
+        <div class="news-body">
+          📄 New <a href="/publication/2024-11-14-Tryptophan-imaging">Tryptophan imaging</a> paper published in <strong>BMC Biology</strong>.
+          <br>
+          <div class="news-img-box">
+             <a href="/images/papers/trp.png" target="_blank">
+                <img src="/images/papers/trp.png" alt="BMC Paper" style="width: 180px;">
+             </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-date">Dec 31, 2024</div>
+        <div class="news-body">
+          📊 Presented a poster about <em>Bioluminescent Imaging</em> at <a href="https://www.cns.org.cn/2024/cn-index.html" target="_blank">CNS-2024</a> in Suzhou.
+        </div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-date">Jan 1, 2024</div>
+        <div class="news-body">
+          🚀 Started my PostDoc at <a href="http://www.mulab.org" target="_blank">Mu Lab</a> in <a href="http://english.cebsit.cas.cn/" target="_blank">ION</a>.
+        </div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-date">Oct 31, 2023</div>
+        <div class="news-body">
+          📄 New <a href="/publication/2023-10-31-Tryptophan-sensor">Fluorescent Tryptophan Sensor</a> paper published in <strong>Cell Discovery</strong>.
+          <br>
+          <div class="news-img-box">
+             <a href="/images/papers/Cell Disc_Logo.jpg" target="_blank">
+                <img src="/images/papers/Cell Disc_Logo.jpg" alt="Cell Discovery" style="width: 180px;">
+             </a>
+          </div>
+        </div>
+      </div>
+      
+       <div class="news-item">
+        <div class="news-date">Sep 19, 2023</div>
+        <div class="news-body">
+           📜 Patent for Tryptophan sensor <a href="https://patents.google.com/patent/CN116769045A/en" target="_blank">GRIT</a> announced in China.
+        </div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-date">Sep 18, 2023</div>
+        <div class="news-body">
+          🎓 Thrilled to pass my Ph.D. Defense in Beijing. 🎉🎉🎉
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="footer-counter">
+    <a href="https://info.flagcounter.com/b5Gl">
+      <img src="https://s01.flagcounter.com/count/b5Gl/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_4/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0">
     </a>
+  </div>
+
+  {% if site.disqus.shortname %}
+    <div style="margin-top: 50px;">
+      <div id="disqus_thread"></div>
+      <script>
+        var disqus_config = function () {
+          this.page.url = '{{ page.url | absolute_url }}';
+          this.page.identifier = '{{ page.id }}';
+        };
+        (function() {
+          var d = document, s = d.createElement('script');
+          s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the comments.</noscript>
+    </div>
+  {% endif %}
+
 </div>
-
-* Oct 23, 2025: 🎉🎉 Congratulations to [Kui](/#about) for receiving the Excellent [Poster](/publication/2025-04-05-Trp-metab-poster) Award at [2025 CSBMB Annual Symposium](https://www.csbmb.org.cn/2025/eindex.html) in Nanchang.
-<div style="text-align: center;">
-    <a href="/images/about/poster-award.jpg" target="_blank">
-        <img src="/images/about/poster-award.jpg" alt="Benches" width="100px">
-        
-    </a>
-</div>
-
-* Sep 10, 2025: 🎉🎉 Congratulations to [Qian Jia](/Team/#Jia) on winning second prize and a cash award for her thesis mid-term report!
-
-* Aug 26, 2025: Great news! Our summer intern [Yun](/Team/#Yun)  took home the <strong>First Prize at the National Microbiology Competition</strong> with her piece “One Flower, One Universe.” A fantastic achievement on the national stage!
-
-<div style="text-align: center;">
-    <a href="/images/news/One flower, one universe.gif" target="_blank">
-        <img src="/images/news/One flower, one universe.gif" alt="Benches" width="200px">
-    </a>
-</div>
-
-
-* Aug 24, 2025: New molecular benches!
-<div style="text-align: center;">
-    <a href="/images/news/benches.png" target="_blank">
-        <img src="/images/news/benches.png" alt="Benches" width="600px">
-    </a>
-</div>
-
-* Aug 11, 2025: We are pleased to welcome [Lexin](/Team/#Lexin) to our team as a summer intern.
-
-* July 14, 2025: We are pleased to welcome [Yuanhua](/Team/#Yuanhua), [Yihan](/Team/#Yihan), [Yongkang](/Team/#Yongkang), [Ziyu](/Team/#Ziyu) to our team as a summer intern.
-
-* May 14, 2025: We are pleased to welcome [Jia Qian](/Team/#Jia) to our team. She joins us to complete her undergraduate thesis research.
-
-
-
-* Jun 5, 2025: New <a href="/publication/2025-03-21-HaloDA">Chemigenetic Dopamine sensor</a> paper published on <em><strong><span style="color: magenta;">Science</span></strong></em>!
-<div style="text-align: center;">
-    <a href="/images/papers/HaloDA1.0.png" target="_blank">
-        <img src="/images/papers/HaloDA1.0.png" alt="BD-dye" width="200px">
-    </a>
-</div>
-
-
-* May 20, 2025: New [Chemigenetic dyes](/publication/2025-02-27-BD-Dye) paper published on ***Nature Methods***.
-<div style="text-align: center;">
-    <a href="/images/papers/BD-dye.png" target="_blank">
-        <img src="/images/papers/BD-dye.png" alt="BD-dye" width="200px">
-    </a>
-</div>
-
-
-* Apr 07, 2025: Presented a [poster](/publication/2025-04-05-Trp-metab-poster) on *Tryptophan metabolism* at [Cell Symposia](/publication/2025-04-05-Trp-metab-poster) in Shenzhen.
-
-
-
-
-
-
-
-* Nov 14, 2024: New [Tryptophan imaging](/publication/2024-11-14-Tryptophan-imaging) paper published on ***BMC Biology***.
-
-<div style="text-align: center;">
-    <a href="/images/papers/trp.png" target="_blank">
-        <img src="/images/papers/trp.png" alt="BD-dye" width="200px">
-    </a>
-</div>
-
-* Dec 31, 2024: Presented a [poster](/publication/2024-09-30-CaLAMP-poster) about *Bioluminescent Imaging* at [CNS-2024](https://www.cns.org.cn/2024/cn-index.html) in Suzhou.
-
-* Jan 01, 2024: Started my PostDoc at [Mu Lab](http://www.mulab.org) in [ION](http://english.cebsit.cas.cn/).
-
-* Sep 18, 2023: Thrilled to pass my Ph.D. Defense in Beijing. 🎉🎉🎉
-
-* Oct 31, 2023: New [Fluorescent Tryptophan sensor](/publication/2023-10-31-Tryptophan-sensor) paper published on ***Cell Discovery***.
-
-<div style="text-align: center;">
-    <a href="/images/papers/Cell Disc_Logo.jpg" target="_blank">
-        <img src="/images/papers/Cell Disc_Logo.jpg" alt="BD-dye" width="200px">
-    </a>
-</div>
-
-
-* Sep 19, 2023: Patent for Tryptophan sensor [GRIT](https://patents.google.com/patent/CN116769045A/en) announced in China.
-
-
-
-
-
-
-
-
-
-
-<br><br><br><br><br><br><br><br><br><br>
-----------------------------------------------------
-
-<div style="text-align: center;">
-  <a href="https://info.flagcounter.com/b5Gl"><img src="https://s01.flagcounter.com/count/b5Gl/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_4/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-</div>
-
-
-<br>
-{% if site.disqus.shortname %}
-  <div id="disqus_thread"></div>
-  <script>
-    var disqus_config = function () {
-      this.page.url = '{{ page.url | absolute_url }}';
-      this.page.identifier = '{{ page.id }}';
-    };
-    (function() {
-      var d = document, s = d.createElement('script');
-      s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  <noscript>请启用 JavaScript 以查看评论。</noscript>
-{% endif %}

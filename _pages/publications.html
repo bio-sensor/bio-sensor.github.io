@@ -5,88 +5,236 @@ permalink: /publications/
 author_profile: false
 ---
 
-<!-- 返回顶部按钮 -->
-<button id="back-to-top" onclick="scrollToTop()">⬆️ Back to Top</button>
-
 <style>
-  /* 返回顶部按钮样式 */
+  /* --- Global Layout & Fonts --- */
+  .page-container {
+    max-width: 1200px; /* Kept slightly wider for the grid layout */
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  /* --- Navigation Bar (Capsule Style from Resources) --- */
+  .pub-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+    padding: 15px;
+    background: rgba(128, 128, 128, 0.05); /* Very light background */
+    border-radius: 50px; /* Capsule shape */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+  }
+
+  .pub-nav a {
+    text-decoration: none;
+    color: #2f7f93; /* Brand Blue */
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: all 0.3s;
+    white-space: nowrap;
+  }
+
+  .pub-nav a:hover {
+    background-color: #2f7f93;
+    color: #fff;
+    transform: translateY(-2px);
+  }
+
+  /* --- Spacing Utility --- */
+  .section-spacer {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2); /* Subtle separator */
+    scroll-margin-top: 100px; /* Anchor offset */
+    color: inherit;
+  }
+
+  /* --- Google Scholar Notice --- */
+  .scholar-notice {
+    font-size: 16px;
+    color: inherit;
+    background-color: rgba(14, 161, 197, 0.1); /* Brand blue tint */
+    padding: 15px;
+    border-left: 4px solid #0ea1c5;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  .scholar-notice a {
+    color: #2f7f93;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  /* --- Publications Grid System --- */
+  .pub-grid {
+    display: grid;
+    /* Responsive Grid: Min width 450px */
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 25px;
+    margin-bottom: 50px;
+  }
+
+  /* --- Publication Card (Matching Resource Card Style) --- */
+  .pub-card {
+    /* Visual Style from Resources page */
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 10px;
+    padding: 25px;
+    background: rgba(128, 128, 128, 0.02); /* Subtle background */
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    
+    /* Layout */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    /* Glassmorphism touch */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+
+  .pub-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-color: #2f7f93;
+    background: rgba(128, 128, 128, 0.05);
+  }
+
+  /* --- Overriding Default Archive Item Styles --- */
+  .pub-card .archive__item {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .pub-card .archive__item-title {
+    font-size: 1.2em !important; 
+    margin-bottom: 10px;
+    color: #2f7f93 !important; /* Title Color */
+  }
+
+  .pub-card .archive__item-excerpt {
+    font-size: 0.95em !important;
+    color: inherit;
+    opacity: 0.8;
+    margin-top: auto; /* Push to bottom if needed */
+  }
+
+  /* Teaser Image Handling */
+  .pub-card .archive__item-teaser {
+    margin-bottom: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+    max-height: 200px;
+    border: 1px solid rgba(128,128,128, 0.1);
+  }
+  
+  .pub-card .archive__item-teaser img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* --- Back to Top Button --- */
   #back-to-top {
-    position: fixed; /* 固定位置 */
-    bottom: 140px;    /* 距离页面底部 */
-    right: 20px;     /* 距离页面右侧 */
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
     padding: 10px 15px;
     font-size: 14px;
-    background-color: #2f7f93; /* 按钮背景颜色 */
-    color: #fff;               /* 按钮字体颜色 */
-    border: none;              /* 去掉边框 */
-    border-radius: 5px;        /* 圆角样式 */
-    cursor: pointer;           /* 鼠标样式 */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* 按钮阴影 */
-    z-index: 1000;             /* 确保按钮显示在顶部 */
+    background-color: #2f7f93;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: none;
   }
-
-  #back-to-top:hover {
-    background-color: #007bff; /* 鼠标悬停时背景颜色 */
-  }
-
-  /* Table of Contents 平铺样式 */
-  .table-of-contents {
-    margin: 20px 0;
-    font-size: 19px;
-  }
-
-  .table-of-contents a {
-    margin-right: 18px; /* 链接之间的间距 */
-    text-decoration: none; /* 去掉下划线 */
-    color: #0ea1c5; /* 链接颜色 */
-    font-weight: bold;
-  }
-
-  .table-of-contents a:hover {
-    color: #ff00c8ab; /* 悬停时链接颜色 */
+  #back-to-top:hover { background-color: #007bff; }
+  
+  /* Mobile Adjustments */
+  @media (max-width: 768px) {
+    .pub-grid {
+      grid-template-columns: 1fr;
+    }
+    .pub-nav {
+      gap: 10px;
+    }
   }
 </style>
 
-<script>
-  /* 返回顶部功能 */
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' }); /* 平滑滚动到顶部 */
-  }
-</script>
+<div class="page-container">
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find a full list of my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div><br /><br />
-{% endif %}
+  {% include base_path %}
 
-{% include base_path %}
+  {% if site.author.googlescholar %}
+    <div class="scholar-notice">
+      📄 You can also find a full list of my articles on <a href="{{site.author.googlescholar}}" target="_blank">my Google Scholar profile</a>.
+    </div>
+  {% endif %}
 
-<!-- 动态生成章节的超链接 -->
+  <nav class="pub-nav">
+      {% for category in site.publication_category %}
+        <a href="#{{ category[0] }}">{{ category[1].title }}</a>
+      {% endfor %}
+  </nav>
 
-<div class="table-of-contents">
+  {% if site.publication_category %}
     {% for category in site.publication_category %}
-      <a href="#{{ category[0] }}">{{ category[1].title }}</a>
+      {% assign title_shown = false %}
+      {% assign has_posts = false %}
+      
+      {% for post in site.publications reversed %}
+        {% if post.category != category[0] %}
+          {% continue %}
+        {% endif %}
+        
+        {% unless title_shown %}
+          <h2 id="{{ category[0] }}" class="section-spacer">{{ category[1].title }}</h2>
+          <div class="pub-grid"> {% assign title_shown = true %}
+        {% endunless %}
+        
+        <div class="pub-card">
+          {% include archive-single.html %}
+        </div>
+        
+        {% assign has_posts = true %}
+      {% endfor %}
+      
+      {% if has_posts %}
+        </div> {% endif %}
+      
     {% endfor %}
+
+  {% else %}
+    <div class="pub-grid">
+    {% for post in site.publications reversed %}
+      <div class="pub-card">
+        {% include archive-single.html %}
+      </div>
+    {% endfor %}
+    </div>
+  {% endif %}
+
 </div>
 
-<!-- 渲染内容 -->
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <h2 id="{{ category[0] }}">{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-<br /><br /><br />
+<button id="back-to-top" onclick="scrollToTop()">⬆️ Back to Top</button>
+
+<script>
+  var mybutton = document.getElementById("back-to-top");
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>

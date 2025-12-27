@@ -1,0 +1,146 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: false
+---
+
+<style>
+  /* --- 布局与间距控制 --- */
+  
+  /* 替代原本大量的 <br>，用于大章节之间的分隔 */
+  .section-spacer {
+    margin-top: 80px; /* 章节上方的间距 */
+    scroll-margin-top: 120px; /* 关键：点击锚点时，预留顶部距离，防止标题被导航栏遮挡 */
+  }
+
+  /* 章节标题下的分割线样式 */
+  .section-divider {
+    border: 0;
+    border-top: 2px solid #f2f3f3;
+    margin-bottom: 30px;
+  }
+
+  /* --- 导航栏样式 --- */
+  .table-of-contents {
+    margin: 30px 0;
+    font-size: 18px;
+    text-align: center; /* 居中显示 */
+    padding: 15px;
+    background-color: #fcfcfc; /* 淡淡的背景增加层次感 */
+    border-radius: 8px;
+  }
+
+  .table-of-contents a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0ea1c5;
+    font-weight: bold;
+    white-space: nowrap; /* 防止文字在移动端不自然换行 */
+    display: inline-block;
+  }
+
+  .table-of-contents a:hover {
+    color: #ff00c8ab;
+  }
+
+  /* --- Google Scholar 提示框样式 --- */
+  .scholar-notice {
+    font-size: 16px;
+    color: #555;
+    background-color: #eaf7fb; /* 极淡的蓝色背景 */
+    padding: 10px 15px;
+    border-left: 4px solid #0ea1c5;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+
+  /* --- 回到顶部按钮 --- */
+  #back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #2f7f93;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: none; /* 默认隐藏，JS 控制显示 */
+    transition: opacity 0.3s ease, background-color 0.3s;
+  }
+
+  #back-to-top:hover {
+    background-color: #007bff;
+  }
+</style>
+
+{% include base_path %}
+
+{% if site.author.googlescholar %}
+  <div class="scholar-notice">
+    📄 You can also find a full list of my articles on <a href="{{site.author.googlescholar}}" target="_blank">my Google Scholar profile</a>.
+  </div>
+{% endif %}
+
+<div class="table-of-contents">
+    {% for category in site.publication_category %}
+      <a href="#{{ category[0] }}">{{ category[1].title }}</a>
+    {% endfor %}
+</div>
+
+
+{% if site.publication_category %}
+  {% for category in site.publication_category %}
+    {% assign title_shown = false %}
+    
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      
+      {% unless title_shown %}
+        <h2 id="{{ category[0] }}" class="section-spacer">{{ category[1].title }}</h2>
+        <hr class="section-divider" />
+        {% assign title_shown = true %}
+      {% endunless %}
+      
+      {% include archive-single.html %}
+      
+    {% endfor %}
+  {% endfor %}
+
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+<br /><br />
+
+<button id="back-to-top" onclick="scrollToTop()">⬆️ Back to Top</button>
+
+<script>
+  // 获取按钮
+  var mybutton = document.getElementById("back-to-top");
+
+  // 监听滚动事件
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    // 当页面向下滚动超过 300px 时显示按钮
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // 平滑滚动回顶部
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
