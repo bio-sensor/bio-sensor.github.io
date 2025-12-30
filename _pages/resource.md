@@ -348,7 +348,7 @@ author_profile: false
         A self-developed tool for microplate data preprocessing.
       </div>
       
-      <div class="software-badges"><a href="/files/app/mProcess%20V4.0.exe" style="text-decoration: none;"><img src="https://img.shields.io/badge/Download-mProcess_V4.0-007bff" alt="Download"></a><img src="https://img.shields.io/badge/license-Freeware-green" alt="License"><a href="/#about"><img src="https://img.shields.io/badge/Developer-Kui_Wang-2f7f93" alt="Developer"></a><a href="https://doi.org/10.5281/zenodo.18093335" target="_blank" style="text-decoration: none;"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18093335-orange" alt="DOI"></a></div>
+      <div class="software-badges"><a href="https://github.com/Epivitae/mProcess" target="_blank" style="text-decoration: none;"><img src="https://img.shields.io/badge/Source-GitHub-181717?logo=github" alt="GitHub Repo"></a><a href="/files/app/mProcess%20V4.0.exe" style="text-decoration: none;"><img src="https://img.shields.io/badge/Download-mProcess_V4.0-007bff" alt="Download"></a><img src="https://img.shields.io/badge/license-Freeware-green" alt="License"><a href="/#about"><img src="https://img.shields.io/badge/Developer-Kui_Wang-2f7f93" alt="Developer"></a><a href="https://opensource.org/" target="_blank" style="text-decoration: none;"><img src="https://img.shields.io/badge/Open_Source-Yes-2ea44f?logo=open-source-initiative&logoColor=white" alt="Open Source"></a><a href="https://doi.org/10.5281/zenodo.18093335" target="_blank" style="text-decoration: none;"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18093335-orange" alt="DOI"></a></div>
       
       <div class="software-img-container">
         <a href="/files/app/pic/mProcess.gif" target="_blank">
