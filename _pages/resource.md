@@ -297,7 +297,28 @@ author_profile: false
       Ratio Imaging Analyzer (RIA) is a lightweight, user-friendly tool designed for processing <strong>dual-channel ratiometric fluorescence data</strong> (e.g., Calcium, FRET, and metabolic sensors). It features automated ratiometric heatmap generation, smart background subtraction, and real-time ROI plotting.
     </div>
 
-    <div class="badges-row"><a href="https://github.com/Epivitae/RatioImagingAnalyzer"><img src="https://img.shields.io/badge/version-v1.7.5-blue" alt="Version"></a><img src="https://img.shields.io/badge/license-MIT-green" alt="License"><img src="https://img.shields.io/badge/python-3.8%2B-yellow" alt="Python"><a href="/#about"><img src="https://img.shields.io/badge/Developer-Kui_Wang-2f7f93" alt="Developer"></a><a href="https://github.com/Epivitae/RatioImagingAnalyzer" style="color:#2f7f93; margin-left: auto;">View on GitHub →</a></div>
+  <div class="badges-row">
+      <a href="https://github.com/Epivitae/RatioImagingAnalyzer">
+        <img src="https://img.shields.io/badge/version-v1.7.5-blue" alt="Version">
+      </a>
+    
+      <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+    
+      <img src="https://img.shields.io/badge/python-3.8%2B-yellow" alt="Python">
+    
+      <a href="/#about">
+        <img src="https://img.shields.io/badge/Developer-Kui_Wang-2f7f93" alt="Developer">
+      </a>
+
+      <a href="https://doi.org/10.5281/zenodo.18091693">
+        <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18091693-orange" alt="DOI">
+      </a>
+
+      <a href="https://github.com/Epivitae/RatioImagingAnalyzer" style="color:#2f7f93; margin-left: auto;">
+        View on GitHub →
+      </a>
+  </div>
+
 
     <div class="ria-grid">
       <div>
