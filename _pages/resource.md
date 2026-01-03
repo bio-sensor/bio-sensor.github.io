@@ -298,25 +298,27 @@ author_profile: false
     </div>
 
   <div class="badges-row">
-      <a href="https://github.com/Epivitae/RatioImagingAnalyzer">
-        <img src="https://img.shields.io/badge/version-v1.7.5-blue" alt="Version">
-      </a>
-    
-      <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
-    
-      <img src="https://img.shields.io/badge/python-3.8%2B-yellow" alt="Python">
-    
-      <a href="/#about">
-        <img src="https://img.shields.io/badge/Developer-Kui_Wang-2f7f93" alt="Developer">
-      </a>
+    <a href="https://pypi.org/project/ria-gui/">
+        <img src="https://img.shields.io/pypi/v/ria-gui?color=blue" alt="PyPI">
+    </a>
+    <a href="https://github.com/Epivitae/RatioImagingAnalyzer/releases/latest">
+        <img src="https://img.shields.io/github/v/release/Epivitae/RatioImagingAnalyzer?label=Download&logo=github&color=2ea44f" alt="Download Latest Release">
+    </a>
 
-      <a href="https://doi.org/10.5281/zenodo.18091693">
+    <img src="https://img.shields.io/badge/python-3.8%2B-yellow" alt="Python Version">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+
+    <a href="https://doi.org/10.5281/zenodo.18091693">
         <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18091693-orange" alt="DOI">
-      </a>
+    </a>
+    <a href="/#about">
+        <img src="https://img.shields.io/badge/Developer-Kui_Wang-2f7f93" alt="Developer">
+    </a>
 
-      <a href="https://github.com/Epivitae/RatioImagingAnalyzer" style="color:#2f7f93; margin-left: auto;">
-        View on GitHub →
-      </a>
+    <a href="https://github.com/Epivitae/RatioImagingAnalyzer">
+        <img src="https://img.shields.io/github/stars/Epivitae/RatioImagingAnalyzer?style=social" alt="GitHub stars">
+    </a>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=Epivitae.RatioImagingAnalyzer" alt="Visitors">
   </div>
 
 
