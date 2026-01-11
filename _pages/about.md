@@ -378,10 +378,10 @@ comments: true
   </section>
 
   <div class="footer-counter">
-    <a href="https://info.flagcounter.com/b5Gl">
-      <img src="https://s01.flagcounter.com/count/b5Gl/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_4/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0">
-    </a>
+    <a href="https://info.flagcounter.com/b5Gl"><img src="https://s01.flagcounter.com/map/b5Gl/size_l/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_1/" alt="Free counters!" border="0"></a>
   </div>
+
+
 
   {% if site.disqus.shortname %}
     <div style="margin-top: 50px;">
