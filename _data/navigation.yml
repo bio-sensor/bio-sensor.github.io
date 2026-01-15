@@ -18,6 +18,8 @@ main:
   - title: "Publications"
     url: /publications/
 
+
+
   #- title: "Talks"
   #  url: /talks/    
 
@@ -47,6 +49,9 @@ main:
 
   - title: "Team"
     url: /Team/
+
+  - title: "Sensor Database"
+    url: /SensorBase/
 
   #- title: "Lab"
   #  url: /lab/
