@@ -51,7 +51,7 @@ main:
     url: /Team/
 
   - title: "Sensor Database"
-    url: /SensorBase/
+    url: /sensor/
 
   #- title: "Lab"
   #  url: /lab/

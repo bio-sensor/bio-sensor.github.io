@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-permalink: /SensorBase/
+permalink: /sensor/
 author_profile: false
 ---
 
