@@ -13,7 +13,7 @@ title                    : "Chimeric Nano Sensor (CNS)"
 title_separator          : "-"
 name                     : &name "Kui Wang"
 description              : &description "A biologist"
-url                      : https://epivitae.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://www.cns.ac.cn # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Epivitae/epivitae.github.io"
 
