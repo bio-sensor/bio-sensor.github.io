@@ -221,7 +221,7 @@ comments: true
       <div class="news-item">
         <div class="news-date">Jan 17, 2026</div>
         <div class="news-body">
-          👋 We are delighted to welcome <a href="/Team/#YangYichen">Yang Yichen</a> from <a href="https://zhiyuan.sjtu.edu.cn/" target="_blank">Zhiyuan College, Shanghai Jiao Tong University</a> to join us for a winter internship!
+          👋 We are delighted to welcome <a href="/Team/#Yichen">Yang Yichen</a> from <a href="https://en.zhiyuan.sjtu.edu.cn/" target="_blank">Zhiyuan College, Shanghai Jiao Tong University</a> to join us for a winter internship!
         </div>
       </div>
 
@@ -288,7 +288,7 @@ comments: true
           <br>
           <div class="news-img-box">
              <a href="/images/news/benches.png" target="_blank">
-               <img src="/images/news/benches.png" alt="Lab Benches" style="width: 400px;">
+               <img src="/images/news/benches.png" alt="Lab Benches" style="width: 600px;">
              </a>
           </div>
         </div>
