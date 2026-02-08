@@ -201,9 +201,37 @@ comments: true
     <div class="news-feed">
 
       <div class="news-item">
+        <div class="news-date">Feb 8, 2026</div>
+        <div class="news-body">
+          🏆 Congratulations to <a href="/Team/#Jia">Jia Qian</a> for receiving the <strong>Excellent Presentation Award</strong> at the 
+          <a href="https://mp.weixin.qq.com/s/q4r7DFClAbgz0oaRi9MXkA" target="_blank">Shanghai Normal University Annual Conference</a> 
+          for the report on adenosine probe development!
+          <br>
+          <div class="news-img-box" style="display: flex; gap: 10px;">
+            <a href="/images/news/2026-Jia.jpg" target="_blank">
+              <img src="/images/news/2026-Jia.jpg" alt="Award 1" style="width: 200px;">
+            </a>
+            <a href="/images/news/2026-Jia2.jpg" target="_blank">
+              <img src="/images/news/2026-Jia2.jpg" alt="Award 2" style="width: 200px;">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-date">Jan 17, 2026</div>
+        <div class="news-body">
+          👋 We are delighted to welcome <a href="/Team/#YangYichen">Yang Yichen</a> from <a href="https://zhiyuan.sjtu.edu.cn/" target="_blank">Zhiyuan College, Shanghai Jiao Tong University</a> to join us for a winter internship!
+        </div>
+      </div>
+
+
+
+
+      <div class="news-item">
         <div class="news-date">Nov 1, 2025</div>
         <div class="news-body">
-          ✨ We are pleased to welcome <a href="/Team/#Zhengyuan">Zhengyuan</a> and <a href="/Team/#Yiran">Yiran</a> to our team as post-graduate research assistants.
+          👋 We are pleased to welcome <a href="/Team/#Zhengyuan">Zhengyuan</a> and <a href="/Team/#Yiran">Yiran</a> to our team as post-graduate research assistants.
         </div>
       </div>
 

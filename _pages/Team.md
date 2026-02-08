@@ -206,7 +206,7 @@ author_profile: false
       <span class="member-name">Yiran Zhao</span>
       <span class="member-date">Feb 2026 - Present</span>
       <div class="member-desc">
-        M.Sc. graduate from <span class="member-school">Trinity College Dublin</span> (B.Sc. from UCD). Currently an intern exploring the physiological significance of gut microbiota via <em>in vivo</em> metabolic imaging.
+        M.Sc. graduate from <span class="member-school">Trinity College Dublin</span> (B.Sc. from UCD, UK). Currently an intern exploring the physiological significance of gut microbiota via <em>in vivo</em> metabolic imaging.
       </div>
     </div>
   </div>
@@ -218,7 +218,7 @@ author_profile: false
       <span class="member-name">Zhengyuan Pan</span>
       <span class="member-date">2025 - Present</span>
       <div class="member-desc">
-        M.Sc. graduate from <span class="member-school">Johns Hopkins University</span>. She has significantly accelerated the development of genetically encoded Pi probes, leading to substantial experimental breakthroughs.
+        M.Sc. graduate from <span class="member-school">Johns Hopkins University</span> (B.SC. from SUNY Cobleskill, USA). She has significantly accelerated the development of genetically encoded Pi probes, leading to substantial experimental breakthroughs.
       </div>
     </div>
   </div>
@@ -230,7 +230,7 @@ author_profile: false
       <span class="member-name">Jie Li</span>
       <span class="member-date">Aug 2024 - Present</span>
       <div class="member-desc">
-        M.Sc. candidate from <span class="member-school">Shanghai Ocean University</span>. Developing genetically encoded thermometers for zebrafish. She is currently preparing a first-author manuscript regarding <em>in vivo</em> imaging of CPPU sensor.
+        M.Sc. candidate from <span class="member-school">Shanghai Ocean University</span>. Developing genetically encoded thermometers for zebrafish. He is currently preparing a first-author manuscript regarding <em>in vivo</em> imaging of CPPU sensor.
       </div>
     </div>
   </div>
@@ -271,6 +271,17 @@ author_profile: false
     </div>
   </div>
 
+  <div class="member-card">
+      <div id="Yichen" class="anchor-fix"></div> 
+      <div class="member-icon">🧠</div>
+      <div class="member-info">
+        <span class="member-name">Yichen Yang</span>
+        <span class="member-date">Feb 2026 - Present</span>
+        <div class="member-desc">
+          Undergraduate from <span class="member-school">Zhiyuan College, Shanghai Jiao Tong University</span>. A Shanghai native exploring the intersection of molecular biology and neuroscience.
+        </div>
+      </div>
+    </div>
 </div>
 
 <h2 class="section-title">🎓 Alumni</h2>
@@ -313,17 +324,7 @@ author_profile: false
     </div>
   </div>
 
-  <div class="member-card">
-    <div id="Ziyu" class="anchor-fix"></div>
-    <div class="member-icon">🔬</div>
-    <div class="member-info">
-      <span class="member-name">Ziyu Lin</span>
-      <span class="member-date">July 2025 - Aug 2025</span>
-      <div class="member-desc">
-        High-school student from <span class="member-school">Guangdong</span>. Joined to learn molecular biology experiments, embracing both scientific challenges and our joyful, collaborative atmosphere.
-      </div>
-    </div>
-  </div>
+
 
 </div>
 
