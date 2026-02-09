@@ -235,7 +235,7 @@ author_profile: false
   <div class="section-spacer"></div>
   <h2 id="plasmids">Expression vector maps for biosensors</h2>
 
-  <p>For detailed usage of these biosensors in imaging, or for plasmid requests, please contact <a href="mailto:wangk@ion.ac.cn" style="color: #2f7f93; font-weight: bold;">Dr. Kui Wang</a>.</p>
+  <p>For detailed usage of these biosensors in imaging, or for plasmid related to any other amino acid metabolites requests, please contact <a href="mailto:wangk@ion.ac.cn" style="color: #2f7f93; font-weight: bold;">Dr. Kui Wang</a>.</p>
 
   <div class="table-wrapper">
     <table>
