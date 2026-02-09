@@ -205,7 +205,7 @@ comments: true
         <div class="news-body">
           🏆 Congratulations to <a href="/Team/#Jia">Jia Qian</a> for receiving the <strong>Excellent Presentation Award</strong> at the 
           <a href="https://mp.weixin.qq.com/s/q4r7DFClAbgz0oaRi9MXkA" target="_blank">Shanghai Normal University Annual Conference</a> 
-          for the report on adenosine probe development!
+          for the report on <a href="/resources/#ado-sensor">Adenosine sensor</a> development!
           <br>
           <div class="news-img-box" style="display: flex; gap: 10px;">
             <a href="/images/news/2026-Jia.jpg" target="_blank">

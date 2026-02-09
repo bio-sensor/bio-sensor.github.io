@@ -284,10 +284,21 @@ author_profile: false
           <td>Novel sensor for monitoring Tryptamine dynamics <em>in vivo</em></td>
           <td>Under revision</td>
         </tr>
+        <tr id="ado-sensor" style="background-color: #f0f8ff;">
+          <td><a href="/files/plasmid/PLACEHOLDER.dna">K8</a></td>
+          <td>✨GEM<sub>Ado</sub>1.0 Sensor</td>
+          <td>
+              An ultrasensitive, high-contrast sensor for monitoring Adenosine dynamics <em>in vivo</em>. 
+              <br><strong>We welcome collaboration to test in diverse model organisms.</strong>
+          </td>
+          <td>
+              <span>Available for <a href="mailto:wangk@ion.ac.cn?subject=Inquiry for Ado Sensor Beta Testing">beta testing</a></span>
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
-
+More sensors for metabolites are coming...<br><br><br><br>
 
   <div class="section-spacer"></div>
   <h2 id="software">Ratio Imaging Analyzer (RIA)</h2>
