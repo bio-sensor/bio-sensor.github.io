@@ -229,6 +229,10 @@ author_profile: false
   <nav class="resource-nav">
     <a href="#plasmids">🧬 Plasmids</a>
     <a href="#software">🖥️ Software</a>
+    <a href="#imagej-plugin">
+      <img src="/images/resource/imagej/fiji-logo.png" alt="Fiji" style="height: 1.2em; vertical-align: middle; margin-right: 5px;"> 
+      ImageJ Plugin
+    </a>
     <a href="#protocols">📋 Protocols</a>
   </nav>
 
@@ -300,6 +304,10 @@ author_profile: false
   </div>
 More sensors for metabolites are coming...<br><br><br><br>
 
+
+
+
+
   <div class="section-spacer"></div>
   <h2 id="software">Ratio Imaging Analyzer (RIA)</h2>
 
@@ -329,7 +337,6 @@ More sensors for metabolites are coming...<br><br><br><br>
     <a href="https://github.com/Epivitae/RatioImagingAnalyzer">
         <img src="https://img.shields.io/github/stars/Epivitae/RatioImagingAnalyzer?style=social" alt="GitHub stars">
     </a>
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=Epivitae.RatioImagingAnalyzer" alt="Visitors">
   </div>
 
 
@@ -408,6 +415,143 @@ More sensors for metabolites are coming...<br><br><br><br>
     </div>
 
   </div>
+
+
+
+  <div class="section-spacer"></div>
+  <h2 id="imagej-plugin">
+    <img src="/images/resource/imagej/fiji-logo.png" alt="Fiji" style="height: 1.2em; vertical-align: middle; margin-right: 8px;"> 
+    ImageJ Plugin
+  </h2>
+
+  <div class="resource-card">
+      <div style="margin-bottom: 15px;">
+        <strong>Biosensor Tools</strong> is a suite of open-source ImageJ/Fiji plugins designed for ratiometric imaging, motion correction, metadata inspection, and AI-powered denoising. As <a href="https://imagej.net/people/Epivitae" target="_blank" style="color: #2f7f93; font-weight: bold; text-decoration: none;">active developers</a> of ImageJ plugins, our team is dedicated to providing biologists with simple and handy analysis tools to facilitate the study of neurochemical dynamics in live animals using genetically encoded fluorescent biosensors.
+      </div>
+
+      <div style="background: rgba(47, 127, 147, 0.05); border-left: 4px solid #2f7f93; padding: 15px; border-radius: 4px; margin-bottom: 10px;">
+        <strong style="color: #2f7f93;">📥 Quick Installation via Fiji</strong>
+        <ol style="margin-top: 8px; margin-bottom: 0; padding-left: 20px; font-size: 0.95em;">
+          <li>Open Fiji and navigate to <code>Help > Update...</code></li>
+          <li>Click <code>Manage update sites</code>, then click <code>Add update site</code>.</li>
+          <li>Enter Name: <strong>Biosensor Tools</strong> and URL: <strong>https://sites.imagej.net/Biosensor-Tools/</strong></li>
+          <li>Close the window and click <code>Apply changes</code>.</li>
+        </ol>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="software-grid">
+      
+    <!-- RIA-J Card -->
+    <div class="resource-card small-software-card">
+      <div style="font-size: 1.1em; margin-bottom: 8px;">
+        <strong>RIA-J</strong> <span style="font-size: 0.85em; color: #666; font-weight: normal;">(Ratio Imaging Analyzer)</span>
+      </div>
+      <div style="margin-bottom: 10px; font-size: 0.95em;">
+        Publication-grade ratiometric analysis. Features background subtraction, pixel-by-pixel ratio calculation, and IMD display mode.
+      </div>
+      
+      <div class="software-badges">
+        <a href="https://github.com/Epivitae/RIA-J" target="_blank"><img src="https://img.shields.io/badge/Source-GitHub-181717?logo=github" alt="GitHub Repo"></a>
+        <a href="https://imagej.net/plugins/biosensor/ria-j" target="_blank"><img src="https://img.shields.io/badge/ImageJ-Wiki-1565c0" alt="ImageJ Wiki"></a>
+      </div>
+      
+      <div class="software-img-container">
+        <a href="https://github.com/Epivitae/RIA-J" target="_blank">
+          <img src="/images/resource/imagej/ria-j.png" alt="RIA-J preview" class="responsive-img">
+        </a>
+      </div>
+    </div>
+
+    <!-- FIA Card -->
+    <div class="resource-card small-software-card">
+      <div style="font-size: 1.1em; margin-bottom: 8px;">
+        <strong>FIA</strong> <span style="font-size: 0.85em; color: #666; font-weight: normal;">(Fluorescence Image Aligner)</span>
+      </div>
+      <div style="margin-bottom: 10px; font-size: 0.95em;">
+        Motion correction & Registration. Robustly stabilizes live-animal time-lapse datasets (Global & Dense Flow) before quantification.
+      </div>
+      
+      <div class="software-badges">
+        <a href="https://github.com/Epivitae/FIA-Fluorescence-Image-Aligner" target="_blank"><img src="https://img.shields.io/badge/Source-GitHub-181717?logo=github" alt="GitHub Repo"></a>
+        <a href="https://imagej.net/plugins/biosensor/fia" target="_blank"><img src="https://img.shields.io/badge/ImageJ-Wiki-1565c0" alt="ImageJ Wiki"></a>
+      </div>
+      
+      <div class="software-img-container">
+        <a href="https://github.com/Epivitae/FIA-Fluorescence-Image-Aligner" target="_blank">
+          <img src="/images/resource/imagej/compressed-fia-reg.gif" alt="FIA preview" class="responsive-img">
+        </a>
+      </div>
+    </div>
+
+    <!-- MIA Card -->
+    <div class="resource-card small-software-card">
+      <div style="font-size: 1.1em; margin-bottom: 8px;">
+        <strong>MIA</strong> <span style="font-size: 0.85em; color: #666; font-weight: normal;">(Metadata Inspection Analyzer)</span>
+      </div>
+      <div style="margin-bottom: 10px; font-size: 0.95em;">
+        Metadata explorer. Instantly extracts hidden tags (Olympus .oir, OME-XML) and exports summaries to Excel/CSV.
+      </div>
+      
+      <div class="software-badges">
+        <a href="https://github.com/Epivitae/MIA-Metadata-Inspection-Analyzer" target="_blank"><img src="https://img.shields.io/badge/Source-GitHub-181717?logo=github" alt="GitHub Repo"></a>
+        <a href="https://imagej.net/plugins/biosensor/mia" target="_blank"><img src="https://img.shields.io/badge/ImageJ-Wiki-1565c0" alt="ImageJ Wiki"></a>
+      </div>
+      
+      <div class="software-img-container">
+        <a href="https://github.com/Epivitae/MIA-Metadata-Inspection-Analyzer" target="_blank">
+          <img src="/images/resource/imagej/mia-gui.png" alt="MIA preview" class="responsive-img">
+        </a>
+      </div>
+    </div>
+
+    <!-- NIA Card -->
+    <div class="resource-card small-software-card">
+      <div style="font-size: 1.1em; margin-bottom: 8px;">
+        <strong>NIA</strong> <span style="font-size: 0.85em; color: #666; font-weight: normal;">(Neural Inference Assistant)</span>
+      </div>
+      <div style="margin-bottom: 10px; font-size: 0.95em;">
+        Zero-setup AI denoising. Runs deep learning models (DnCNN) directly in Java via ONNX Runtime. No Python/CUDA required. Supports 5D hyperstacks.
+      </div>
+      
+      <div class="software-badges">
+        <a href="https://github.com/Epivitae/NIA-Denoise" target="_blank"><img src="https://img.shields.io/badge/Source-GitHub-181717?logo=github" alt="GitHub Repo"></a>
+        <a href="https://imagej.net/plugins/biosensor/nia" target="_blank"><img src="https://img.shields.io/badge/ImageJ-Wiki-1565c0" alt="ImageJ Wiki"></a>
+      </div>
+      
+      <div class="software-img-container">
+        <a href="https://github.com/Epivitae/NIA-Denoise" target="_blank">
+          <img src="https://opengraph.githubassets.com/1/Epivitae/NIA-Denoise" alt="NIA preview" class="responsive-img">
+        </a>
+      </div>
+    </div>
+
+    <!-- WinMan Card -->
+    <div class="resource-card small-software-card">
+      <div style="font-size: 1.1em; margin-bottom: 8px;">
+        <strong>WinMan</strong> <span style="font-size: 0.85em; color: #666; font-weight: normal;">(Window Manager)</span>
+      </div>
+      <div style="margin-bottom: 10px; font-size: 0.95em;">
+        Workspace accelerator. Efficiently manages, tiles, and filters multiple image windows to keep your ImageJ workspace clean.
+      </div>
+      
+      <div class="software-badges">
+        <a href="https://github.com/Epivitae/WinMan" target="_blank"><img src="https://img.shields.io/badge/Source-GitHub-181717?logo=github" alt="GitHub Repo"></a>
+        <a href="https://imagej.net/plugins/biosensor/winman" target="_blank"><img src="https://img.shields.io/badge/ImageJ-Wiki-1565c0" alt="ImageJ Wiki"></a>
+      </div>
+      
+      <div class="software-img-container">
+        <a href="https://github.com/Epivitae/WinMan" target="_blank">
+          <img src="https://opengraph.githubassets.com/1/Epivitae/WinMan" alt="WinMan preview" class="responsive-img">
+        </a>
+      </div>
+    </div>
+
+
+
+    </div>
 
 
   <div class="section-spacer"></div>

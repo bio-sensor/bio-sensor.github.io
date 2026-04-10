@@ -182,4 +182,31 @@ author_profile: false
     </div>
   </div>
 
+
+  <!-- Card 3: High-Throughput Screening (新增卡片) -->
+  <div class="tech-card">
+    <div>
+      <h1 class="tech-title">High-Throughput Screening Platform</h1>
+      
+      <div class="tech-image-box">
+        <!-- 记得把这里替换为你实际的图片或动图路径 -->
+        <img src="/images/tech/hts.png" alt="High-Throughput Screening Platform">
+      </div>
+      
+      <div class="tech-description">
+        <p>
+          We leverage high-throughput molecular biology techniques combined with a semi-automated fluorescent protein characterization platform to accelerate protein engineering. This streamlined workflow allows us to rapidly screen, evaluate, and optimize novel biosensor variants with high efficiency.
+        </p>
+      </div>
+    </div>
+
+    <div class="tech-publications">
+       <span class="pub-icon">⚙️</span> Tools & Methods:
+       <br>
+       <a href="/resources/#software" target="_blank">mProcess</a> |
+       <a href="/resources/#protocols" target="_blank">Lab Protocols</a>
+    </div>
+  </div>
+  
+
 </div>
