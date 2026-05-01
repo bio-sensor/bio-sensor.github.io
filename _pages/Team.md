@@ -235,17 +235,7 @@ author_profile: false
     </div>
   </div>
 
-  <div class="member-card">
-    <div id="Jia" class="anchor-fix"></div>
-    <div class="member-icon">🌿</div>
-    <div class="member-info">
-      <span class="member-name">Jia Qian</span>
-      <span class="member-date">June 2025 - Present</span>
-      <div class="member-desc">
-        B.Sc. candidate from <span class="member-school">Shanghai Normal University</span>. Her research focuses on genetically encoded auxin biosensors, integrating plant physiology with molecular probe design.
-      </div>
-    </div>
-  </div>
+
 
   <div class="member-card">
     <div id="Yuanhua" class="anchor-fix"></div>
@@ -324,7 +314,17 @@ author_profile: false
     </div>
   </div>
 
-
+  <div class="member-card">
+    <div id="Jia" class="anchor-fix"></div>
+    <div class="member-icon">🌿</div>
+    <div class="member-info">
+      <span class="member-name">Jia Qian</span>
+      <span class="member-date">June 2025 - May 2026</span>
+      <div class="member-desc">
+        B.Sc. candidate from <span class="member-school">Shanghai Normal University</span>. Her research focuses on genetically encoded auxin biosensors, integrating plant physiology with molecular probe design.
+      </div>
+    </div>
+  </div>
 
 </div>
 

@@ -200,6 +200,30 @@ comments: true
     
     <div class="news-feed">
 
+
+      <div class="news-item">
+        <div class="news-date">May 15, 2026</div>
+        <div class="news-body">
+          🌿 What a wonderful time at our annual <strong>Spring Retreat</strong>!
+          The team spent an unforgettable weekend hiking and relaxing in the scenic hills.
+          Special thanks to everyone for making it so special.
+          <br>
+          <div class="news-img-box" style="display: flex; gap: 10px;">
+            <a href="/images/news/retreat1.jpg" target="_blank">
+              <img src="/images/news/retreat1.jpg" alt="Spring Retreat" style="width: 200px;">
+            </a>
+            <a href="/images/news/retreat.jpg" target="_blank">
+              <img src="/images/news/retreat.jpg" alt="Spring Retreat" style="width: 200px;">
+            </a>
+            <a href="/images/news/retreat2.jpg" target="_blank">
+              <img src="/images/news/retreat2.jpg" alt="Spring Retreat" style="width: 200px;">
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
       <div class="news-item">
         <div class="news-date">Feb 8, 2026</div>
         <div class="news-body">
