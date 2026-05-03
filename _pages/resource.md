@@ -576,7 +576,8 @@ More sensors for metabolites are coming...<br><br><br><br>
 
   <div class="section-spacer"></div>
   <h3>Useful codes</h3>
-  <pre style="background: rgba(128,128,128,0.1); padding: 10px; border-radius: 5px;">bundle exec jekyll serve --livereload
+  <pre style="background: rgba(128,128,128,0.1); padding: 10px; border-radius: 5px;">bundle exec jekyll serve --livereload --incremental
+
 jekyll clean</pre>
 
 </div>

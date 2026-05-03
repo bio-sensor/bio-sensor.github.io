@@ -189,7 +189,7 @@ comments: true
       </p>
 
       <p>
-        We are currently integrating advanced technologies such as <strong>AI-assisted protein design</strong>, <strong>semi-automated high-throughput screening</strong>, <strong>rapid in vivo expression in zebrafish</strong>, and <strong>light-sheet microscopy imaging</strong> to develop next-generation optical imaging tools. These efforts aim to address key scientific questions in molecular and cellular neurobiology, neuromodulation of metabolism, and neuro–tumor interactions.
+        We are currently integrating advanced technologies such as <strong>AI-assisted protein design</strong>, <strong>semi-automated high-throughput screening</strong>, <strong>rapid in vivo expression in zebrafish</strong>, and <strong>light-sheet microscopy imaging</strong> to develop next-generation optical imaging tools(e.g., <a href="/publications/">Tryptamine Sensor</a>, <a href="/publications/">Red Calcium Sensor</a>, <a href="/publications/">CPPU Sensor</a>, among others). These efforts aim to address key scientific questions in molecular and cellular neurobiology, neuromodulation of metabolism, and neuro–tumor interactions.
       </p>
     </div>
   </section>
