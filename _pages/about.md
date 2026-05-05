@@ -206,25 +206,17 @@ comments: true
         <div class="news-body">
           📄 New <a href="/publication/2026-05-05-SCaMP">Red calcium sensor SCaMP</a> preprints posted in <strong> Figshare</strong>.
           <br>
-          <div class="news-img-box">
+          <div class="news-img-box" style="display: flex; gap: 10px;">
              <a href="/images/papers/SCaMP/SCaMP1.png" target="_blank">
                 <img src="/images/papers/SCaMP/SCaMP1.png" alt="SCaMP" style="width: 180px;">
              </a>
-          </div>
-             
-          <div class="news-img-box">
-              <a href="/images/papers/SCaMP/SCaMP2.png" target="_blank">
+             <a href="/images/papers/SCaMP/SCaMP2.png" target="_blank">
                 <img src="/images/papers/SCaMP/SCaMP2.png" alt="SCaMP" style="width: 180px;">
              </a>
-          </div>
-
-          <div class="news-img-box">
              <a href="/images/papers/SCaMP/SCaMP3.png" target="_blank">
                 <img src="/images/papers/SCaMP/SCaMP3.png" alt="SCaMP" style="width: 180px;">
              </a>
           </div>
-             
-             
         </div>
       </div>
 
