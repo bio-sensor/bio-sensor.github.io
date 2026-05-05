@@ -395,7 +395,7 @@ comments: true
       <div class="news-item">
         <div class="news-date">Apr 7, 2025</div>
         <div class="news-body">
-          📊 Presented a poster on <em><a href="/publication/2025-04-05-Trp-metab-poster">Tryptophan metabolism</a></em> at <a href="https://cell-press-symposia.com/neurometabolism-2025/conference-program.html" target="_blank">Cell Symposia</a> in Shenzhen.
+          📊 Presented a poster on <a href="/publication/2025-04-05-Trp-metab-poster">Tryptophan metabolism</a> at <a href="https://cell-press-symposia.com/neurometabolism-2025/conference-program.html" target="_blank">Cell Symposia</a> in Shenzhen.
         </div>
       </div>
 
@@ -415,7 +415,7 @@ comments: true
       <div class="news-item">
         <div class="news-date">Dec 31, 2024</div>
         <div class="news-body">
-          📊 Presented a poster about <em><a href="/publication/2024-09-30-CaLAMP-poster">Bioluminescent Imaging</a></em> at <a href="https://www.cns.org.cn/2024/cn-index.html" target="_blank">CNS-2024</a> in Suzhou.
+          📊 Presented a poster about <a href="/publication/2024-09-30-CaLAMP-poster">Bioluminescent Imaging</a> at <a href="https://www.cns.org.cn/2024/cn-index.html" target="_blank">CNS-2024</a> in Suzhou.
         </div>
       </div>
 
@@ -442,7 +442,7 @@ comments: true
        <div class="news-item">
         <div class="news-date">Sep 19, 2023</div>
         <div class="news-body">
-           📜 Patent for Tryptophan sensor <a href="https://patents.google.com/patent/CN116769045A/en" target="_blank">GRIT</a> announced in China.
+           📜 Patent for Tryptophan sensor <a href="/publication/tryptamine-sensor-patent/" target="_blank">GRIT</a> announced in China.
         </div>
       </div>
 
