@@ -280,11 +280,17 @@ comments: true
       <div class="news-item">
         <div class="news-date">Nov 2, 2025</div>
         <div class="news-body">
-          🎉 Congratulations to <a href="/Team/#Yihan">Yihan</a> for winning <strong>First Prize</strong> at the Undergraduate Research Forum of <a href="https://qwc.shu.edu.cn/" target="_blank">Qian Weichang College</a>!
+          🎉 Congratulations to <a href="/Team/#Yihan">Yihan</a> for winning <strong>First Prize</strong> at the <a href="https://mp.weixin.qq.com/s/Gi1v9bK5biY94kZGdkgSmA"> Undergraduate Research Forum</a> of <a href="https://qwc.shu.edu.cn/" target="_blank">Qian Weichang College</a>!
           <br>
-          <div class="news-img-box">
-            <a href="/images/about/yihan.jpg" target="_blank">
-              <img src="/images/about/yihan.jpg" alt="Award" style="width: 200px;">
+          <div class="news-img-box" style="display: flex; gap: 10px;">
+            <a href="/images/about/yihan3.jpg" target="_blank">
+              <img src="/images/about/yihan3.jpg" alt="Award" style="height: 150px; width: auto;">
+            </a>
+            <a href="/images/about/yihan2.jpg" target="_blank">
+              <img src="/images/about/yihan2.jpg" alt="Award" style="height: 150px; width: auto;">
+            </a>
+            <a href="/images/about/yihan1.jpg" target="_blank">
+              <img src="/images/about/yihan1.jpg" alt="Award" style="height: 150px; width: auto;">
             </a>
           </div>
         </div>

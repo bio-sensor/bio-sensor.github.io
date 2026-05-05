@@ -256,7 +256,7 @@ author_profile: false
       <span class="member-name">Yihan Zhou</span>
       <span class="member-date">July 2025 - Present</span>
       <div class="member-desc">
-        Undergraduate from <span class="member-school">Shanghai University</span>. Joining as a summer intern to explore molecular probe technologies and assist in biosensor experiments.
+        Undergraduate from <span class="member-school">QianWeiChang College, Shanghai University</span>. Joining as a summer intern to explore molecular probe technologies and assist in biosensor experiments.
       </div>
     </div>
   </div>
@@ -321,7 +321,7 @@ author_profile: false
       <span class="member-name">Jia Qian</span>
       <span class="member-date">June 2025 - May 2026</span>
       <div class="member-desc">
-        B.Sc. candidate from <span class="member-school">Shanghai Normal University</span>. Her research focuses on genetically encoded auxin biosensors, integrating plant physiology with molecular probe design.
+        B.Sc. candidate from <span class="member-school">The Biological Sciences Excellent Innovation Class, Shanghai Normal University</span>. Her research focuses on genetically encoded auxin biosensors, integrating plant physiology with molecular probe design.
       </div>
     </div>
   </div>
