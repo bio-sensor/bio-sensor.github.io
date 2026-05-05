@@ -204,7 +204,7 @@ comments: true
        <div class="news-item highlight-news">
         <div class="news-date">May 5, 2026</div>
         <div class="news-body">
-          📄 New <a href="/publication/2026-05-05-SCaMP">Red calcium sensor SCaMP</a> preprints posted in <strong> Figshare</strong>.
+          ✨✨✨ 📄 New <a href="/publication/2026-05-05-SCaMP">Red calcium sensor SCaMP</a> preprints posted in <strong> Figshare</strong>.
           <br>
           <div class="news-img-box">
              <a href="/images/papers/SCaMP/SCaMP1.png" target="_blank">
