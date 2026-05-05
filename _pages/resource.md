@@ -288,7 +288,7 @@ author_profile: false
           <td>Novel sensor for monitoring Tryptamine dynamics <em>in vivo</em></td>
           <td>Under revision</td>
         </tr>
-        <tr id="ado-sensor" style="background-color: #f0f8ff;">
+        <tr id="ado-sensor" >
           <td><a href="/files/plasmid/PLACEHOLDER.dna">K8</a></td>
           <td>✨GEM<sub>Ado</sub>1.0 Sensor</td>
           <td>
