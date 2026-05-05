@@ -259,6 +259,9 @@ comments: true
             <a href="/images/news/2026-Jia2.jpg" target="_blank">
               <img src="/images/news/2026-Jia2.jpg" alt="Award 2" style="width: 200px;">
             </a>
+            <a href="/images/news/2026-Jia2.jpg" target="_blank">
+              <img src="/images/news/2026-Jia3.jpg" alt="Award 2" style="width: 200px;">
+            </a>
           </div>
         </div>
       </div>
@@ -296,7 +299,7 @@ comments: true
       <div class="news-item">
         <div class="news-date">Oct 23, 2025</div>
         <div class="news-body">
-          🎉 Congratulations to <a href="/#about">Kui</a> for receiving the <strong>Excellent Poster Award</strong> at the <a href="https://www.csbmb.org.cn/2025/eindex.html" target="_blank">2025 CSBMB Annual Symposium</a> in Nanchang.
+          🎉 Congratulations to <a href="/#about">Kui</a> for receiving the <strong>Excellent <a href="/publication/2025-04-05-Trp-metab-poster">Poster</a> Award</strong> at the <a href="https://www.csbmb.org.cn/2025/eindex.html" target="_blank">2025 CSBMB Annual Symposium</a> in Nanchang.
           <br>
           <div class="news-img-box">
              <a href="/images/about/poster-award.jpg" target="_blank">
@@ -389,7 +392,7 @@ comments: true
       <div class="news-item">
         <div class="news-date">Apr 7, 2025</div>
         <div class="news-body">
-          📊 Presented a poster on <a href="/publication/2025-04-05-Trp-metab-poster">Tryptophan metabolism</a> at Cell Symposia in Shenzhen.
+          📊 Presented a poster on <em><a href="/publication/2025-04-05-Trp-metab-poster">Tryptophan metabolism</a></em> at <a href="https://cell-press-symposia.com/neurometabolism-2025/conference-program.html" target="_blank">Cell Symposia</a> in Shenzhen.
         </div>
       </div>
 
@@ -409,7 +412,7 @@ comments: true
       <div class="news-item">
         <div class="news-date">Dec 31, 2024</div>
         <div class="news-body">
-          📊 Presented a poster about <em>Bioluminescent Imaging</em> at <a href="https://www.cns.org.cn/2024/cn-index.html" target="_blank">CNS-2024</a> in Suzhou.
+          📊 Presented a poster about <em><a href="/publication/2024-09-30-CaLAMP-poster">Bioluminescent Imaging</a></em> at <a href="https://www.cns.org.cn/2024/cn-index.html" target="_blank">CNS-2024</a> in Suzhou.
         </div>
       </div>
 
