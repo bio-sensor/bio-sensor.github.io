@@ -206,15 +206,9 @@ comments: true
         <div class="news-body">
           📄 New <a href="/publication/2026-05-05-SCaMP">Red calcium sensor SCaMP</a> preprints posted in <strong> Figshare</strong>.
           <br>
-          <div class="news-img-box" style="display: flex; gap: 10px;">
+          <div class="news-img-box">
              <a href="/images/papers/SCaMP/SCaMP1.png" target="_blank">
-                <img src="/images/papers/SCaMP/SCaMP1.png" alt="SCaMP" style="width: 180px;">
-             </a>
-             <a href="/images/papers/SCaMP/SCaMP2.png" target="_blank">
-                <img src="/images/papers/SCaMP/SCaMP2.png" alt="SCaMP" style="width: 180px;">
-             </a>
-             <a href="/images/papers/SCaMP/SCaMP3.png" target="_blank">
-                <img src="/images/papers/SCaMP/SCaMP3.png" alt="SCaMP" style="width: 180px;">
+                <img src="/images/papers/SCaMP/SCaMP1.png" alt="SCaMP" style="width: 200px;">
              </a>
           </div>
         </div>
@@ -301,9 +295,12 @@ comments: true
         <div class="news-body">
           🎉 Congratulations to <a href="/#about">Kui</a> for receiving the <strong>Excellent <a href="/publication/2025-04-05-Trp-metab-poster">Poster</a> Award</strong> at the <a href="https://www.csbmb.org.cn/2025/eindex.html" target="_blank">2025 CSBMB Annual Symposium</a> in Nanchang.
           <br>
-          <div class="news-img-box">
+          <div class="news-img-box" style="display: flex; gap: 10px;">
              <a href="/images/about/poster-award.jpg" target="_blank">
-               <img src="/images/about/poster-award.jpg" alt="Poster Award" style="width: 120px;">
+               <img src="/images/about/poster-award.jpg" alt="Poster Award" style="height: 150px; width: auto;">
+             </a>
+             <a href="/images/about/poster-award2.jpg" target="_blank">
+               <img src="/images/about/poster-award2.jpg" alt="Poster Award" style="height: 150px; width: auto;">
              </a>
           </div>
         </div>
