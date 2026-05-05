@@ -1,19 +1,19 @@
 ---
-title: "Chemosensory modulation of eye-body coordination in larval zebrafish"
+title: "Pallium-encoded valence-specific chemosensory amplification of eye-body coordination in larval zebrafish"
 collection: publication 
-category: preprints
+category: manuscripts
 permalink: /publication/2024-10-27-Fish-on-chip
 excerpt: 'Chemosensory cues shape zebrafish eye-body coordination, with distinct responses for aversive and appetitive stimuli.'
-date: 2024-10-27
-venue: 'bioRxiv'
+date: 2026-1-8
+venue: 'eLife'
 author_profile: false
 #slidesurl: 'http://epivitae.github.io/files/slides1.pdf'
 paperurl: '/files/publication/fish-on-chip.pdf'
-#citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+
 ---
 Samuel K. H. Sy<sup>✉</sup>, Danny C. W. Chan, Jenny J. Zhang, Jing Lyu, Crystal Feng, [**Kui Wang**](/), Vincent C. T. Mok, Kenneth K. Y. Wong, Yu Mu, Owen Randlett, Yu Hu & Ho Ko<sup>✉</sup>
 
 ## Abstract
-Coordinated eye-body movements are essential for many animal behaviors, yet the influence of chemosensory inputs on these movements remains underexplored. Here, we enhance the Fish-On-Chips optofluidic platform to reveal that larval zebrafish use coupled saccade-tail flips for chemosensory avoidance, but not pursuit. Spontaneous saccades, which alternate in direction, are closely synchronized with tail flips via anticipatory adjustments in tail flip event rate, directionality, and kinematics. In response to ethologically representative chemosensory cues, this coordination is differentially modulated based on valence. Aversive chemical cues increase saccade frequency and the proportion of saccade-coupled tail flips, while also enhancing the turning intent as the coupling strengthens. Conversely, appetitive chemicals promote more sustained gliding movements without impacting saccades or their tail flip coupling. Brain-wide neuronal activity imaging reveals that the pallium, a cortical homolog in teleosts, strongly represents the sensorimotor transformation of aversive cue-associated coupled saccade-tail flips. Our findings underscore the critical role of chemosensory cues in regulating eye-body coordination in an early vertebrate species, highlighting a deep evolutionary integration of sensory inputs to optimize locomotion.
+Coordinated eye-body movements are essential for adaptive behavior, yet little is known about how multisensory input, particularly chemosensory cues, shapes this coordination. Using our enhanced Fish-On-Chips optofluidic platform, we uncovered complex dynamics in how larval zebrafish coordinate saccadic eye movements with tail flips. Under baseline conditions, spontaneous tail flips dynamically align with saccades in frequency and direction for coordinated turns. Chemosensory valence further modulates this coordination: death-associated cues intensify both the strength and frequency of coupled saccade-tail flips during turns, whereas food-related cues promote forward gliding without altering saccade coupling. Concurrent brain-wide neuronal imaging reveals that the zebrafish pallium represents the transformation of aversive valence into enhanced saccade-tail coordination, with stronger coupling associated with higher pallium activation. These findings uncover the neural basis by which chemosensory inputs of different valences distinctly regulate eye-body coordination to drive adaptive locomotion in a developing vertebrate, offering insights into principles of sensory-motor integration.
 
-Check out the [orginal paper](https://www.biorxiv.org/content/10.1101/2024.10.27.620486v1.abstract).
+Check out the [orginal paper](https://doi.org/10.7554/eLife.109494.1).
