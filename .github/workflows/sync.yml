@@ -1,34 +1,38 @@
 name: Sync Fork
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch: 
+    - cron: '0 0 * * *' # 每天凌晨运行
+  workflow_dispatch: # 支持手动触发
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    # 赋予推送代码所需的权限
     permissions:
-      contents: write
+      contents: write # 必须赋予写权限，否则 push 会报 403 错误
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # 升级到 v4 解决警告
         with:
-          fetch-depth: 0 # 拉取所有历史记录，防止合并冲突
+          fetch-depth: 0 # 拉取所有历史，防止合并冲突
 
       - name: Configure Git identity
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Add upstream and Sync
+      - name: Sync with Upstream
         run: |
+          # 添加原仓库作为远程库
           git remote add upstream https://github.com/Epivitae/epivitae.github.io.git
           git fetch upstream
-          # 切换到 master 分支确保万无一失
+          
+          # 强制切换到 master，确保在正确的分支上操作
           git checkout master
-          # 合并 upstream 的 master 分支
+          
+          # 合并 upstream 的 master 更改
+          # 如果你想完全保持跟原作者一致，不考虑自己的本地修改，可以用 reset --hard upstream/master
           git merge upstream/master --allow-unrelated-histories
-          # 推送到自己的 origin master
+          
+          # 推送到你自己的 master 分支
           git push origin master
