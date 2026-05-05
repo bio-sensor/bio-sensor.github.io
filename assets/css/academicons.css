@@ -419,6 +419,9 @@
 .ai-semantic-scholar:before {
   content: "\e96e";
 }
+.ai-imagej:before {
+  content: "\e96e";
+}
 .ai-semantic-scholar-square:before {
   content: "\e96c";
 }

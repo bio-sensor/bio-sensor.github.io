@@ -6,9 +6,9 @@ author_profile: False
 ---
 
 ### Contact Information
-*   **Email:** [k@cns.ac.cn](mailto:k@cns.ac.cn)
+*   **Email:** [k@cns.ac.cn](mailto:k@cns.ac.cn); [wangk@ion.ac.cn](mailto:wangk@ion.ac.cn)
 *   **Phone** +86 17501098600
-*   **Office:** Room A839, New Life Science Building
+*   **Office:** Room A839, New Life Science Building (Dr. Yu Mu's Lab)
 *   **Address:** 320 Yueyang Road, Shanghai, China
 
 ### Message Board

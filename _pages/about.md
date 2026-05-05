@@ -189,7 +189,7 @@ comments: true
       </p>
 
       <p>
-        We are currently integrating advanced technologies such as <strong>AI-assisted protein design</strong>, <strong>semi-automated high-throughput screening</strong>, <strong>rapid in vivo expression in zebrafish</strong>, and <strong>light-sheet microscopy imaging</strong> to develop next-generation optical imaging tools(e.g., Tryptamine sensor <a href="/publications/">GEM<sub>TrpA</sub>1.0</a>, Red calcium sensor <a href="/publications/2026-05-05-SCaMP">SCaMP</a>, Forchlorfenuron sensor <a href="/publication/">GEM<sub>CPPU</sub>1.0</a>, among others). These efforts aim to address key scientific questions in molecular and cellular neurobiology, neuromodulation of metabolism, and neuro–tumor interactions.
+        We are currently integrating advanced technologies such as <strong>AI-assisted protein design</strong>, <strong>semi-automated high-throughput screening</strong>, <strong>rapid in vivo expression in zebrafish</strong>, and <strong>light-sheet microscopy imaging</strong> to develop next-generation optical imaging tools(e.g., Tryptamine sensor <a href="/publications/">GEM<sub>TrpA</sub>1.0</a>, Red calcium sensor <a href="/publication/2026-05-05-SCaMP">SCaMP</a>, Forchlorfenuron sensor <a href="/publications/">GEM<sub>CPPU</sub>1.0</a>, among others). These efforts aim to address key scientific questions in molecular and cellular neurobiology, neuromodulation of metabolism, and neuro–tumor interactions.
       </p>
     </div>
   </section>
@@ -204,27 +204,13 @@ comments: true
        <div class="news-item highlight-news">
         <div class="news-date">May 5, 2026</div>
         <div class="news-body">
-          📄 New <a href="/publication/2026-05-05-SCaMP">Red calcium sensor SCaMP</a> preprints posted in <strong> Figshare</strong>.
+          ✨✨✨ 📄 New <a href="/publication/2026-05-05-SCaMP">Red calcium sensor SCaMP</a> preprints posted in <strong> Figshare</strong>.
           <br>
           <div class="news-img-box">
              <a href="/images/papers/SCaMP/SCaMP1.png" target="_blank">
-                <img src="/images/papers/SCaMP/SCaMP1.png" alt="SCaMP" style="width: 180px;">
+                <img src="/images/papers/SCaMP/SCaMP1.png" alt="SCaMP" style="width: 200px;">
              </a>
           </div>
-             
-          <div class="news-img-box">
-              <a href="/images/papers/SCaMP/SCaMP2.png" target="_blank">
-                <img src="/images/papers/SCaMP/SCaMP2.png" alt="SCaMP" style="width: 180px;">
-             </a>
-          </div>
-
-          <div class="news-img-box">
-             <a href="/images/papers/SCaMP/SCaMP3.png" target="_blank">
-                <img src="/images/papers/SCaMP/SCaMP3.png" alt="SCaMP" style="width: 180px;">
-             </a>
-          </div>
-             
-             
         </div>
       </div>
 
@@ -267,6 +253,9 @@ comments: true
             <a href="/images/news/2026-Jia2.jpg" target="_blank">
               <img src="/images/news/2026-Jia2.jpg" alt="Award 2" style="width: 200px;">
             </a>
+            <a href="/images/news/2026-Jia2.jpg" target="_blank">
+              <img src="/images/news/2026-Jia3.jpg" alt="Award 2" style="width: 200px;">
+            </a>
           </div>
         </div>
       </div>
@@ -291,11 +280,17 @@ comments: true
       <div class="news-item">
         <div class="news-date">Nov 2, 2025</div>
         <div class="news-body">
-          🎉 Congratulations to <a href="/Team/#Yihan">Yihan</a> for winning <strong>First Prize</strong> at the Undergraduate Research Forum of <a href="https://qwc.shu.edu.cn/" target="_blank">Qian Weichang College</a>!
+          🎉 Congratulations to <a href="/Team/#Yihan">Yihan</a> for winning <strong>First Prize</strong> at the <a href="https://mp.weixin.qq.com/s/Gi1v9bK5biY94kZGdkgSmA"> Undergraduate Research Forum</a> of <a href="https://qwc.shu.edu.cn/" target="_blank">Qian Weichang College</a>!
           <br>
-          <div class="news-img-box">
-            <a href="/images/about/yihan.jpg" target="_blank">
-              <img src="/images/about/yihan.jpg" alt="Award" style="width: 200px;">
+          <div class="news-img-box" style="display: flex; gap: 10px;">
+            <a href="/images/about/yihan3.jpg" target="_blank">
+              <img src="/images/about/yihan3.jpg" alt="Award" style="height: 150px; width: auto;">
+            </a>
+            <a href="/images/about/yihan2.jpg" target="_blank">
+              <img src="/images/about/yihan2.jpg" alt="Award" style="height: 150px; width: auto;">
+            </a>
+            <a href="/images/about/yihan1.jpg" target="_blank">
+              <img src="/images/about/yihan1.jpg" alt="Award" style="height: 150px; width: auto;">
             </a>
           </div>
         </div>
@@ -304,11 +299,14 @@ comments: true
       <div class="news-item">
         <div class="news-date">Oct 23, 2025</div>
         <div class="news-body">
-          🎉 Congratulations to <a href="/#about">Kui</a> for receiving the <strong>Excellent Poster Award</strong> at the <a href="https://www.csbmb.org.cn/2025/eindex.html" target="_blank">2025 CSBMB Annual Symposium</a> in Nanchang.
+          🎉 Congratulations to <a href="/#about">Kui</a> for receiving the <strong>Excellent <a href="/publication/2025-04-05-Trp-metab-poster">Poster</a> Award</strong> at the <a href="https://www.csbmb.org.cn/2025/eindex.html" target="_blank">2025 CSBMB Annual Symposium</a> in Nanchang.
           <br>
-          <div class="news-img-box">
+          <div class="news-img-box" style="display: flex; gap: 10px;">
              <a href="/images/about/poster-award.jpg" target="_blank">
-               <img src="/images/about/poster-award.jpg" alt="Poster Award" style="width: 120px;">
+               <img src="/images/about/poster-award.jpg" alt="Poster Award" style="height: 150px; width: auto;">
+             </a>
+             <a href="/images/about/poster-award2.jpg" target="_blank">
+               <img src="/images/about/poster-award2.jpg" alt="Poster Award" style="height: 150px; width: auto;">
              </a>
           </div>
         </div>
@@ -397,7 +395,7 @@ comments: true
       <div class="news-item">
         <div class="news-date">Apr 7, 2025</div>
         <div class="news-body">
-          📊 Presented a poster on <a href="/publication/2025-04-05-Trp-metab-poster">Tryptophan metabolism</a> at Cell Symposia in Shenzhen.
+          📊 Presented a poster on <a href="/publication/2025-04-05-Trp-metab-poster">Tryptophan metabolism</a> at <a href="https://cell-press-symposia.com/neurometabolism-2025/conference-program.html" target="_blank">Cell Symposia</a> in Shenzhen.
         </div>
       </div>
 
@@ -417,7 +415,7 @@ comments: true
       <div class="news-item">
         <div class="news-date">Dec 31, 2024</div>
         <div class="news-body">
-          📊 Presented a poster about <em>Bioluminescent Imaging</em> at <a href="https://www.cns.org.cn/2024/cn-index.html" target="_blank">CNS-2024</a> in Suzhou.
+          📊 Presented a poster about <a href="/publication/2024-09-30-CaLAMP-poster">Bioluminescent Imaging</a> at <a href="https://www.cns.org.cn/2024/cn-index.html" target="_blank">CNS-2024</a> in Suzhou.
         </div>
       </div>
 
@@ -444,7 +442,7 @@ comments: true
        <div class="news-item">
         <div class="news-date">Sep 19, 2023</div>
         <div class="news-body">
-           📜 Patent for Tryptophan sensor <a href="https://patents.google.com/patent/CN116769045A/en" target="_blank">GRIT</a> announced in China.
+           📜 Patent for Tryptophan sensor <a href="/publication/tryptamine-sensor-patent/" target="_blank">GRIT</a> announced in China.
         </div>
       </div>
 
