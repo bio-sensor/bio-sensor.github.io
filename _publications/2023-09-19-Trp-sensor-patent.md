@@ -6,6 +6,7 @@ permalink: /publication/2023-09-19-Trp-sensor-patent
 excerpt: ''
 date: 2023-09-19
 venue: 'CN'
+author_profile: false
 #slidesurl: 'http://epivitae.github.io/files/publication/HaloDA1.0.pdf'
 #paperurl: 'http://epivitae.github.io/files/publication/HaloDA1.0.pdf'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'

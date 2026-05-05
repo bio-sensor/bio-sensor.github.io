@@ -6,6 +6,7 @@ permalink: /publication/2024-10-27-Fish-on-chip
 excerpt: 'Chemosensory cues shape zebrafish eye-body coordination, with distinct responses for aversive and appetitive stimuli.'
 date: 2024-10-27
 venue: 'bioRxiv'
+author_profile: false
 #slidesurl: 'http://epivitae.github.io/files/slides1.pdf'
 paperurl: '/files/publication/fish-on-chip.pdf'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'

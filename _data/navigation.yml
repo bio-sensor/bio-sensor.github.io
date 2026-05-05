@@ -18,6 +18,24 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Techniques"
+    url: /techniques/
+
+  - title: "Resources"
+    url: /resources/
+
+  - title: "Team"
+    url: /Team/
+
+  - title: "Contact"
+    url: /contact/
+
+  #- title: "Sensor Database"
+  #  url: /sensor/
+
+  #- title: "Lab"
+  #  url: /lab/
+
   #- title: "Talks"
   #  url: /talks/    
 
@@ -38,14 +56,3 @@ main:
     
   #- title: "Guide"
   #  url: /markdown/
-
-  - title: "Techniques"
-    url: /techniques/
-
-  - title: "Resources"
-    url: /resources/
-
-
-
-  #- title: "Lab"
-  #  url: /lab/
